@@ -1,0 +1,4 @@
+#  To run use:
+# ageval -cd exp/configs/<CONFIGDIR>
+defaults:
+  - base_config

@@ -1,0 +1,3 @@
+- evaluator_cls=ageval.evaluators.agent.PairwiseEvaluatorAgent
+- evaluator_kwargs.model=openai/gpt-3.5-turbo-0125
+- dummy=1

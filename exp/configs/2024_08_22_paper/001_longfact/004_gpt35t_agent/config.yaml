@@ -1,0 +1,21 @@
+#  To run use:
+# ageval -m -cd exp/configs/<CONFIGDIR>
+num_workers: 16
+hydra:
+  launcher:
+    n_jobs: 2
+  mode: MULTIRUN
+  sweeper:
+    params:
+      data_name: longfact-v8
+      evaluator_cls: ageval.evaluators.agent.PairwiseEvaluatorAgent
+      evaluator_kwargs.model: openai/gpt-3.5-turbo-0125
+      evaluator_kwargs.max_tokens: 2048
+      evaluator_kwargs.baseline: ageval.evaluators.basic.BasicPairwiseEvaluator
+      # note that for sweep of list options, need to use choice
+      # see https://hydra.cc/docs/1.3/advanced/override_grammar/extended/
+      dummy: 1,2,3,4,5
+defaults:
+  - base_config
+  - override hydra/launcher: joblib
+  - _self_

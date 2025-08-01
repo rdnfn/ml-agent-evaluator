@@ -1,0 +1,60 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ageval"
+version = "0.1.0"
+dependencies = [
+  "python-dotenv=1.1.1",
+  "black=25.1.0",
+  "jupyter=1.1.1",
+  "pandarallel=1.6.5",
+  "hydra-core=1.3.2",
+  "hydra-joblib-launcher=1.2.0",
+  "loguru=0.7.3",
+  "wandb=0.21.0",
+  "absl-py=2.3.1",
+  "scienceplots=2.1.1",
+  "datasets=3.6.0",
+  "alpaca-eval=0.6.6",
+]
+requires-python = ">=3.10"
+authors = [
+  {name = "Arduin Findeis", email = "arduin.findeis@cst.cam.ac.uk"},
+  {name = "Floris Weers", email = "floris_weers@apple.com"},
+  {name = "Tom Gunter", email = "tom_gunter@apple.com"},
+
+]
+description = "Agentic evaluators"
+readme = "README.md"
+
+[project.scripts]
+ageval-safe-original = "ageval.experiments.safe_original:run_experiment"
+ageval = "ageval.experiments.core:run_experiment"
+ageval-app = "ageval.analysis.app:run"
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "pre-commit",
+]
+safe = ["openai==0.27.2"]
+api_models = [
+  "langchain",
+  "langchain-openai",
+]
+app = [
+  "gradio",
+]
+
+[tool.hatch.build.targets.wheel.force-include]
+"third_party/" = "third_party"
+"third_party/long_form_factuality/common" = "common"
+"third_party/long_form_factuality/eval" = "eval"
+"third_party/long_form_factuality/third_party" = "third_party"
+
+[tool.pytest.ini_options]
+markers = [
+    "api: marks tests that require API calls (deselect with '-m \"not api\"')",
+]

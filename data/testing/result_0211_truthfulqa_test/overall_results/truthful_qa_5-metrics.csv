@@ -1,0 +1,5 @@
+,model,Agreement rate,Agreement rate (incl NAs),Agreed,Not agreed,Num text_a evaluator pref,Num text_b evaluator pref,No evaluator annotation available,Not avail.,Sum,Agreed (%),Not agreed (%),Not avail. (%)
+0,agent_gpt-4o-2024-05-13_fact_check_code_interpreter_base-basic,0.8,0.8,4,1,1,4,0,0,5,80.0,20.0,0.0
+1,basic_gpt-4o-2024-05-13,1.0,1.0,5,0,2,3,0,0,5,100.0,0.0,0.0
+2,agent_gpt-3.5-turbo-0125_fact_check_code_interpreter_base-basic,0.8,0.8,4,1,1,4,0,0,5,80.0,20.0,0.0
+3,basic_gpt-3.5-turbo-0125,0.8,0.8,4,1,1,4,0,0,5,80.0,20.0,0.0

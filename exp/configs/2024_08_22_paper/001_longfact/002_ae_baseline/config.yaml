@@ -1,0 +1,22 @@
+#  To run use:
+# ageval -m -cd exp/configs/<CONFIGDIR>
+# NOTE: specifically for AlpacaEval annotator,
+# reduced the size of num workers, as prev setting seemed 
+# to overwhelm networking settings or cause other issues
+num_workers: 5
+hydra:
+  launcher:
+    n_jobs: 1
+  mode: MULTIRUN
+  sweeper:
+    params:
+      data_name: longfact-v8
+      evaluator_cls: ageval.evaluators.baseline_alpacaeval.AlpacaEvalPairwiseEvaluator, ageval.evaluators.baseline_arenahard.ArenaHardPairwiseEvaluator
+      # Most other config kwargs won't be used by alpacaeval, 
+      # since their separate config is used.
+      # This is using the default AlpacaEval 2.0 annotator.
+      dummy: 1,2,3,4,5
+defaults:
+  - base_config
+  - override hydra/launcher: joblib
+  - _self_

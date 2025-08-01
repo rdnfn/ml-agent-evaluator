@@ -1,0 +1,18 @@
+#  To run use:
+# ageval -m -cd exp/configs/<CONFIGDIR>
+data_path: "./data/external/code_apps/competitive_manual.csv"
+num_workers: 16
+hydra:
+  launcher:
+    n_jobs: 2
+  mode: MULTIRUN
+  sweeper:
+    params:
+      evaluator_cls: ageval.evaluators.agent.PairwiseEvaluatorAgent, ageval.evaluators.basic.BasicPairwiseEvaluator
+      evaluator_kwargs.model: openai/gpt-3.5-turbo-0125, openai/gpt-4o-2024-05-13
+      evaluator_kwargs.tools: choice(["code_interpreter"])
+      dummy: 1 # single seed
+defaults:  
+  - base_config
+  - override hydra/launcher: joblib
+  - _self_

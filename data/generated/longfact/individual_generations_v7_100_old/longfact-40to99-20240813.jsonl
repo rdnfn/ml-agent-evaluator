@@ -1,0 +1,1682 @@
+[
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000040",
+        "messages": [
+            {
+                "role": "user",
+                "content": "b29fba3f20e250a7a877bfd39954e70e4a6e8fb7c48dcad1fcf4d968bd756ac4"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Greenland Ice Sheet is the second-largest ice body in the world, covering approximately 1.7 million square kilometers and containing about 2.9 million cubic kilometers of ice. It has been a focal point of climate research, particularly since the early 2000s, when scientists like Dr. Jason Box and Dr. Marco Tedesco highlighted accelerated melting due to rising global temperatures. In 2019, a study revealed that the ice sheet lost around 600 billion tons of ice in a single year, contributing to global sea level rise. The ice sheet's melting is particularly pronounced in areas like the Jakobshavn Glacier, which has retreated significantly over the past few decades. As of 2021, projections indicated that if current trends continue, the Greenland Ice Sheet could contribute up to 7 meters to global sea levels by the end of the century.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Greenland Ice Sheet, covering approximately 1.7 million square kilometers, is the second-largest ice body in the world, after Antarctica. It contains about 2.90 million cubic kilometers of ice, which, if melted, could raise global sea levels by about 7 meters. Research led by scientists like Dr. Jason Bollier from the Geological Survey of Denmark and Greenland has shown that the ice sheet is losing mass at an accelerating rate, with a loss of around 320 billion tons of ice per year as of 2019. Notable events include the record-breaking melt in June 2012, when nearly 95% of the ice sheet's surface experienced some melting. The ice sheet is primarily located in Greenland, with significant areas such as the Jakobshavn Glacier, which has been retreating rapidly, contributing to rising sea levels.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000041",
+        "messages": [
+            {
+                "role": "user",
+                "content": "05e43afb609a454b764c6ecb7e358ae4587d6aea4344176d7b2c2a9a9fc6cf7d"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Serena Williams is a professional tennis player from the United States, widely regarded as one of the greatest athletes in the history of the sport. Born on September 26, 1981, in Saginaw, Michigan, she began playing tennis at a young age, coached by her father, Richard Williams, alongside her sister Venus Williams. Over her illustrious career, Serena has won 23 Grand Slam singles titles, the most by any player in the Open Era, with her last major victory at the 2017 Australian Open. She has also achieved a career-high singles ranking of World No. 1, holding that position for a total of 319 weeks. Off the court, Williams is known for her advocacy for gender equality and racial justice, and she has launched various business ventures, including her own clothing line, Serena.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Serena Williams is a professional tennis player from the United States, widely regarded as one of the greatest athletes in the history of the sport. Born on September 26, 1981, in Saginaw, Michigan, she began playing tennis at a young age, coached by her father, Richard Williams, alongside her sister Venus Williams. Over her career, Serena has won 23 Grand Slam singles titles, the most by any player in the Open Era, with her last major victory at the 2018 Australian Open. She has also achieved a career-high singles ranking of World No. 1, holding that position for a total of 309 weeks. Off the court, Serena is known for her philanthropic efforts, including the Serena Williams Fund, which supports education and community development, and she has made significant contributions to fashion and business, launching her own clothing line and investing in various ventures.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000042",
+        "messages": [
+            {
+                "role": "user",
+                "content": "532f9032a14370006753dc0e5beb8c39aa5ed9be06f189678ffb8725ec7b9e6d"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "XGBoost, or Extreme Gradient Boosting, is a powerful machine learning algorithm developed by Tianqi Chen in 2016, designed for speed and performance in supervised learning tasks. It implements gradient boosting, which combines the predictions of multiple weak learners, typically decision trees, to create a strong predictive model. XGBoost gained significant popularity in data science competitions, notably winning the Kaggle competition for the \"Otto Group Product Classification Challenge\" in 2015. The algorithm is particularly effective for structured/tabular data and has been widely used in various applications, including credit scoring and customer churn prediction. Its efficiency is attributed to features like parallel processing, regularization, and handling of missing values, making it a go-to choice for many data scientists and practitioners.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "XGBoost, or Extreme Gradient Boosting, is a powerful machine learning algorithm developed by Tianqi Chen in 2016, designed for speed and performance in supervised learning tasks. It implements gradient boosting, which combines the predictions of multiple weak learners, typically decision trees, to create a strong predictive model. XGBoost gained significant popularity after its success in various Kaggle competitions, such as the 2017 Data Science Bowl, where it was used by many top competitors to achieve high accuracy in predictive modeling. The algorithm is known for its scalability, efficiency, and ability to handle large datasets, making it suitable for applications in finance, healthcare, and marketing. Notably, XGBoost has been utilized in real-world scenarios, such as predicting customer churn for companies like Airbnb and optimizing credit scoring models in financial institutions.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000043",
+        "messages": [
+            {
+                "role": "user",
+                "content": "63fb2a413b4647eec7aad59f585e36d0752d99a4ac58ffc7226101acb626187b"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "I'm sorry, but I couldn't find any specific information on an individual named Emilia Chico. It's possible that she may not be a widely recognized public figure or that her prominence has emerged after my last update in October 2023. If you have any additional context or details about her, I would be happy to help you with related information or topics.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "I'm sorry, but I couldn't find any information on an individual named Emilia Chico. It's possible that she may not be a widely recognized public figure or that her prominence has emerged after my last update in October 2023. If you have any specific context or details about her, I would be happy to help you with related information or topics.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000044",
+        "messages": [
+            {
+                "role": "user",
+                "content": "bdba4cbf8fde129e755425480993565b62d6e762b3894791abf5d3807a64f3ae"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The America's Cup is the oldest international sporting trophy, first contested in 1851, and is awarded to the winner of a sailing regatta between yacht clubs. The competition originated when the yacht \"America,\" representing the New York Yacht Club, won a race around the Isle of Wight, defeating the British fleet. The event has evolved over the years, with notable teams including the Oracle Team USA, which won the Cup in 2013 and 2017, and Emirates Team New Zealand, which claimed victory in 2021. The Cup is held every few years, with the next edition scheduled for 2024 in Barcelona, Spain, featuring advanced sailing technology and design. Key figures in the competition include Sir Thomas Lipton, who famously challenged for the Cup five times in the early 20th century, and Larry Ellison, co-founder of Oracle, who played a significant role in revitalizing the event in the 21st century.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The America's Cup is the oldest international sporting trophy, first contested in 1851, and is awarded to the winner of a sailing regatta between yacht clubs. The competition originated when the yacht \"America,\" representing the New York Yacht Club, won a race around the Isle of Wight, defeating the British fleet. The event has evolved over the years, with notable teams including the Oracle Team USA, which won the Cup in 2010 and 2013 under the leadership of skipper Jimmy Spearhill. The 36th America's Cup took place in Auckland, New Zealand, from March 6 to March 17, 2021, where Emirates Team New Zealand successfully defended their title against Luna Rossa Prada Pirelli. The next edition, the 38th America's Cup, is scheduled to be held in Barcelona, Spain, in 2024, continuing the tradition of high-stakes competition and innovation in sailing technology.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000045",
+        "messages": [
+            {
+                "role": "user",
+                "content": "f069950c1663fc2cfd9237254afc0c733a996a2afeab984823d42d3ec3c6b6f0"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Marillyn Hewson served as the CEO of Lockheed Martin from January 2013 until June 2020, becoming the first woman to lead the company. Under her leadership, Lockheed Martin's revenue grew from approximately $47 billion in 2013 to over $65 billion in 2019, driven by significant contracts such as the F-35 Lightning II program, which saw a total estimated cost of $1.5 trillion over its lifetime. Hewson emphasized innovation and technology, overseeing the acquisition of Aerojet Rocketdyne in 2020, which bolstered Lockheed's capabilities in propulsion systems. She also focused on workforce development, launching initiatives to increase diversity and inclusion within the company, which included a commitment to hiring 8,000 veterans annually. Hewson's tenure was marked by a strong emphasis on cybersecurity and international partnerships, exemplified by Lockheed's collaborations with countries like Australia and Japan on defense projects.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Marillyn Hewson served as the CEO of Lockheed Martin from January 2013 until June 2020, becoming the first woman to lead the company. Under her leadership, Lockheed Martin's revenue grew significantly, reaching approximately $65 billion in 2019, driven by key programs such as the F-35 Lightning III fighter jet and the Orion spacecraft. Hewson emphasized innovation and technology, overseeing the acquisition of Aerojet Rocketdyne Propulsion in 2020, which aimed to enhance the company's capabilities in propulsion systems. She also focused on workforce development, launching initiatives to increase diversity and inclusion within the company, which included partnerships with organizations like the National Society of Black Engineers. Hewson's tenure was marked by a strong commitment to corporate responsibility, as she led efforts to improve sustainability and reduce the company's carbon footprint.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000046",
+        "messages": [
+            {
+                "role": "user",
+                "content": "aac0c5e413d8ca5ff2ecd4dae7f43f8721dd2a739b8960d91fe11ed502e98e42"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Raspberry Pi Zero is a small, low-cost single-board computer developed by the Raspberry Pi Foundation, first released in November 2015. It features a Broadcom BCM2835 processor, 512 MB of RAM, and a mini HDMI port, making it suitable for various DIY projects and embedded applications. The original model was priced at just $5, which significantly lowered the barrier to entry for hobbyists and educators interested in computing and programming. In 2016, the Raspberry Pi Zero W was introduced, adding built-in Wi-Fi and Bluetooth capabilities, further expanding its usability in IoT projects. The Raspberry Pi Zero has been widely adopted in the maker community, with applications ranging from retro gaming consoles to home automation systems.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Raspberry Pi Zero is a compact, low-cost single-board computer developed by the Raspberry Pi Foundation, first released in November 2015. It features a Broadcom BCM2845 processor, 512 MB of RAM, and a mini HDMI port, making it suitable for various DIY projects and embedded applications. The Pi Zero measures just 65mm x 30mm, making it significantly smaller than its predecessors, and it is often used in projects like portable gaming consoles and IoT devices. In January 2016, the Raspberry Pi Zero W Lite was introduced, adding built-in Wi-Fi and Bluetooth capabilities, further expanding its versatility. The Raspberry Pi community has embraced the Zero, with numerous tutorials and projects shared online, showcasing its use in everything from robotics to home automation.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000047",
+        "messages": [
+            {
+                "role": "user",
+                "content": "9c8375e7b4fa0c1b56681b7f1b66730b85e55c612ce321546eb964d98ac52a18"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Larry Page is an American computer scientist and entrepreneur best known as one of the co-founders of Google, which he established with Sergey Brin in September 1998 while they were Ph.D. students at Stanford University. Page played a pivotal role in developing the PageRank algorithm, which revolutionized search engine technology by ranking web pages based on their relevance and importance. Under his leadership, Google grew rapidly, going public in August 2004 with an initial public offering (IPO) that valued the company at $23 billion. In 2015, Page became the CEO of Alphabet Inc., Google's parent company, as part of a corporate restructuring that aimed to diversify its business ventures beyond search and advertising. As of October 2023, Page's net worth is estimated to be around $100 billion, making him one of the wealthiest individuals in the world.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Larry Page is an American computer scientist and entrepreneur best known as one of the co-founders of Google, which he established alongside Sergey Brin in September 1998 while they were Ph.D. students at Stanford University. Page served as the CEO of Google from its founding until May 2001, and then again from March 2011 to June 2015, when he became the CEO of Alphabet Inc., Google's parent company, after a corporate restructuring. Under his leadership, Google introduced several key products, including Google Search, Google AdWords, and Android, which significantly shaped the tech landscape. Page was born on March 26, 1973, in East Lansing, Michigan, and he holds a Bachelor\u2019s degree in Computer Engineering from the University of Michigan and a Master\u2019s degree from Stanford University. As of 2021, Page's net worth was estimated to be over $100 billion, making him one of the wealthiest individuals in the world.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000048",
+        "messages": [
+            {
+                "role": "user",
+                "content": "a421c0cbbdf1d76fbc3039d1df0236e119b31851895fdd0e04b57709292f3465"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "OpenAI is an artificial intelligence research organization founded in December 2015 by Elon Musk, Sam Altman, Greg Brockman, Ilya Sutskever, Wojciech Zaremba, and John Schulman, among others. Based in San Francisco, California, OpenAI aims to ensure that artificial general intelligence (AGI) benefits all of humanity. In June 2020, OpenAI released the language model GPT-3, which gained widespread attention for its ability to generate human-like text and was made available through an API. In November 2022, OpenAI launched ChatGPT, a conversational AI model that quickly became popular for its interactive capabilities. As of 2023, OpenAI has continued to advance its research and applications, including the release of GPT-4, further enhancing its impact on various industries.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "OpenAI is an artificial intelligence research organization founded in December 2015 by Elon Musk, Sam Altman, Greg Brockman, Ilya Sutskever, Wojciech Zaremba, and John Schulman, among others. Based in San Francisco, California, OpenAI aims to ensure that artificial general intelligence (AGI) benefits all of humanity. In July 2020, OpenAI released the language model GPT-3, which gained widespread attention for its ability to generate human-like text and was made available through an API. In November 2022, OpenAI launched ChatGPT, a conversational AI model that quickly became popular for its interactive capabilities. As of 2023, OpenAI has continued to advance its research and applications, including the release of GPT-4 and GPT-4o, further enhancing its impact on various industries.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000049",
+        "messages": [
+            {
+                "role": "user",
+                "content": "981d5ee5df7134edcd579f619c748323947220fa8d3bfe460847389cd5985335"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Stanley Cup is the championship trophy awarded annually to the National Hockey League (NHL) playoff winner, first awarded in 1893. Named after Lord Stanley of Preston, the Governor General of Canada, the trophy has a rich history, with the Montreal Canadiens holding the record for the most championships, having won it 24 times, the last being in 1993. The Cup is known for its unique design, featuring a silver bowl atop a series of engraved rings that list the names of winning players and teams. Notable moments include the 2010 Chicago Blackhawks ending a 49-year championship drought and the 2019 St. Louis Blues winning their first Cup in franchise history. The trophy is traditionally awarded in June, with the final series often referred to as the Stanley Cup Final, held in various arenas across North America, including the iconic Madison Square Garden in New York City and the Bell Centre in Montreal.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Stanley Cup is the championship trophy awarded annually to the National Hockey League (NHL) playoff champion, first awarded in 1893. Named after Lord Stanley of Preston, the Governor General of Canada, the trophy has a rich history, with the Montreal Canadiens holding the record for the most championships, having won it 24 times, the last being in March 1993. The Cup is known for its unique design, featuring a silver bowl atop a series of engraved rings that list the names of winning players and teams. Notable events include the 2010 Chicago Blackhawks' victory, which ended a 49-year championship drought, and the 2019 St. Louis Blues' second-ever Cup win, clinched in Game 7 against the Boston Bruins on June 12. The trophy is famously taken on a tour by players, with each champion often sharing it with their hometowns, showcasing its significance in hockey culture.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000050",
+        "messages": [
+            {
+                "role": "user",
+                "content": "9771d3a7133f60e7fc429651884597e873f9d3a2c332df3eecbdfde51f1da644"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Charter of the United Nations was signed on June 26, 1945, in San Francisco, California, by representatives of 50 countries, including notable figures like U.S. Secretary of State Edward Stettinius Jr. and Soviet Foreign Minister Vyacheslav Molotov. It came into force on October 24, 1945, establishing the UN's purposes and principles, which include maintaining international peace and security, promoting human rights, and fostering social and economic development. The Charter consists of a preamble and 19 chapters, detailing the structure and functions of the UN's main organs, such as the General Assembly and the Security Council. One significant event related to the Charter was the establishment of the UN Peacekeeping Forces, which began with the deployment of troops to the Middle East in 1948 following the Arab-Israeli conflict. The Charter has been amended several times, with the most notable amendment occurring in 1965, which expanded the membership of the Security Council from 11 to 15 members.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Charter of the United Nations was signed on June 26, 1945, in San Francisco, California, by representatives of 50 countries, including notable figures like U.S. Secretary of State Edward Frank Stettinius Jr. and Soviet Foreign Minister Vyacheslav Molotov. It came into force on October 24, 1945, which is now celebrated annually as United Nations Day. The Charter establishes the UN's purposes, principles, and structure, including the creation of six main organs: the General Assembly, the Security Council, the International Court of Justice, the Secretariat, the Economic and Social Council, and the Trusteeship Council. It emphasizes the promotion of peace, security, human rights, and social progress, reflecting the aftermath of World War II and the desire to prevent future conflicts. The document has been amended several times, with significant changes made in 1965 to expand the membership of the Security Council and in 1974 to address issues of decolonization.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000051",
+        "messages": [
+            {
+                "role": "user",
+                "content": "65320a0b8e428cb655f30c85015703ce28f605c99df65c6c5c447ad50082e982"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Parmalat financial scandal, which came to light in December 2003, involved the Italian dairy and food corporation Parmalat S.p.A., revealing a massive accounting fraud that amounted to approximately \u20ac14 billion (around $20 billion at the time). The scandal was orchestrated by Parmalat's founder, Calisto Tanzi, who misled investors and regulators about the company's financial health, including the fabrication of assets and the concealment of debts. In December 2003, it was discovered that a \u20ac3.95 billion bank account supposedly held by Parmalat in a Cayman Islands bank did not exist, leading to the company's bankruptcy. The scandal resulted in the arrest of Tanzi and several other executives, with Tanzi later being sentenced to 10 years in prison in 2008. The fallout from the scandal also led to significant regulatory changes in Italy and increased scrutiny of corporate governance practices across Europe.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Parmalat financial scandal, which erupted in December 2003, involved the Italian dairy and food company Parmalat S.p.A., revealing a massive accounting fraud that amounted to approximately \u20ac14 billion (around $20 billion at the time). The scandal was primarily orchestrated by Parmalat's founder and CEO, Calisto Tanzi, who misled investors and regulators about the company's financial health by creating fictitious assets and inflating revenues. The fraud came to light when auditors from Grant Thornton discovered a \u20ac4 billion hole in Parmalat's accounts, leading to the company's bankruptcy filing on December 24, 2003, in a Rome court. The scandal also implicated several banks, including Bank of America and Citigroup, which were accused of facilitating the fraud through complex financial instruments. Ultimately, Tanzi was sentenced to 10 years in prison in March 2008, while the fallout from the scandal led to significant regulatory changes in Italy and beyond, aimed at improving corporate governance and financial transparency.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000052",
+        "messages": [
+            {
+                "role": "user",
+                "content": "edd60c9e787fb8d4b457c6cb4fe89d413bf20fc8c244f47268510c03724c7be1"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Dr. Virginia Apgar was an American obstetrical anesthesiologist born on June 7, 1909, in Westfield, New Jersey. She is best known for developing the Apgar Score in 1952, a quick assessment tool used to evaluate the health of newborns immediately after birth, which assesses five criteria: Appearance, Pulse, Grimace response, Activity, and Respiration. Apgar graduated from Columbia University College of Physicians and Surgeons in 1933 and became the first female anesthesiologist at NewYork-Presbyterian Hospital. Throughout her career, she advocated for the importance of maternal and infant health, serving as a professor at the Johns Hopkins University School of Medicine and later at the University of Virginia. Dr. Apgar passed away on August 7, 1974, but her legacy continues through the widespread use of the Apgar Score, which has saved countless lives by facilitating timely medical interventions for newborns.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Dr. Virginia Apgar was an American obstetrical anesthesiologist born on June 7, 1909, in Westfield, New Jersey. She is best known for developing the Apgar Score in 1952, a quick assessment tool used to evaluate the health of newborns immediately after birth, which assesses five criteria: Appearance, Pulse, Mood, Activity, and Respiration. Apgar earned her medical degree from Columbia University College of Physicians and Surgeons in February 1933 and became the first female anesthesiologist at the institution. Throughout her career, she was a strong advocate for maternal and infant health, serving as the first female professor at the Columbia University College of Physicians and Surgeons. Dr. Apgar passed away on August 7, 1974, but her legacy continues through the widespread use of the Apgar Score, which has saved countless lives by enabling timely medical interventions for newborns.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000053",
+        "messages": [
+            {
+                "role": "user",
+                "content": "f5adabd12ef3ab6e47ec603c1124db91496f46f28e06da128c4f8edea281ae8f"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "\"Gravity\" is a 2013 science fiction thriller directed by Alfonso Cuar\u00f3n, featuring Sandra Bullock as Dr. Ryan Stone, a medical engineer on her first space mission, and George Clooney as veteran astronaut Matt Kowalsky. The film is set in low Earth orbit, primarily aboard the Space Shuttle Explorer and the International Space Station, and follows the harrowing events that unfold after a catastrophic debris field from a destroyed satellite strikes their shuttle, leaving them stranded in space. The film's stunning visual effects and cinematography, crafted by Emmanuel Lubezki, earned it seven Academy Awards, including Best Director for Cuar\u00f3n. The narrative unfolds in real-time, with a runtime of 91 minutes, emphasizing the isolation and desperation of the characters as they struggle to survive and find a way back to Earth. \"Gravity\" was released on October 4, 2013, and grossed over $723 million worldwide, making it one of the highest-grossing films of that year.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "\"Gravity\" is a 2013 science fiction thriller directed by Alfonso Cuar\u00f3n, featuring Sandra Bullock as Dr. Ryan Stone, a medical engineer on her first space mission, and George Clooney as veteran astronaut Matt Kowalsky. The film is set in low Earth orbit, primarily around the International Space Station (ISS) and the Hubble Space Telescope, and it begins with a catastrophic event when debris from a destroyed satellite collides with their shuttle, leaving them stranded in space. The movie showcases the struggle for survival as Stone and Kowalsky attempt to navigate back to safety, facing numerous challenges including loss of communication and dwindling oxygen supplies. \"Gravity\" was released on October 4, 2013, and received critical acclaim for its groundbreaking visual effects, winning six Academy Awards, including Best Director for Cuar\u00f3n. The film's runtime is 89 minutes, and it grossed over $723 million worldwide, making it one of the highest-grossing films of 2013.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000054",
+        "messages": [
+            {
+                "role": "user",
+                "content": "b7e4607d460c65c52012e3bc8b8c3c997c5efcfc55a386d1a986c7354e8eebb3"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Swiss National Bank (SNB), headquartered in Bern and Zurich, is responsible for Switzerland's monetary policy, aiming to ensure price stability and support the country's economic policy. It manages the Swiss franc's value and intervenes in foreign exchange markets when necessary, such as its significant interventions in 2011 to curb the franc's appreciation against the euro. The SNB also oversees the country's financial system's stability, conducting regular assessments and stress tests, with its governing board led by President Thomas Jordan since 2012. In 2020, the SNB reported a profit of CHF 21.3 billion, largely due to its foreign currency investments, which are crucial for maintaining liquidity in the Swiss economy. Additionally, the SNB plays a vital role in the global financial system, holding substantial foreign currency reserves, which amounted to CHF 1 trillion as of mid-2023.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Swiss National Bank (SNB), established in 1907, serves as Switzerland's central bank, responsible for formulating and implementing monetary policy to ensure price stability and support economic growth. It manages the country's foreign exchange reserves, which amounted to approximately CHF 1 trillion as of mid-2023, and intervenes in currency markets to influence the Swiss franc's value, particularly during periods of excessive appreciation. The SNB also plays a crucial role in the financial system by providing liquidity to banks and overseeing the stability of the banking sector, exemplified by its actions during the 2008 financial crisis when it supported UBS with a CHF 6.3 billion capital injection. The bank's monetary policy decisions are guided by the Governing Board, which includes President Thomas Jordan and Vice President Fritz Z\u00e4rbr\u00fcgg, who meet regularly to assess economic conditions and set interest rates. Additionally, the SNB's annual report, published each March, provides insights into its financial performance and policy outlook, reflecting its commitment to transparency and accountability.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000055",
+        "messages": [
+            {
+                "role": "user",
+                "content": "c526836e2e937495018195bd50aa4ef072f2b9ecfb5744730d172c0cc6f3c52f"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Indra Nooyi is an Indian-American business executive who served as the CEO and Chairperson of PepsiCo from 2006 to 2018, making her one of the most prominent women in global business. Born on October 28, 1955, in Chennai, India, she earned a Bachelor's degree in Physics, Chemistry, and Mathematics from Madras Christian College and an MBA from the Indian Institute of Management Calcutta, followed by a Master's degree in Public and Private Management from Yale University. Under her leadership, PepsiCo's revenue grew from $35 billion to $63.5 billion, and she was instrumental in shifting the company's focus towards healthier products, launching initiatives like \"Performance with Purpose.\" Nooyi has been recognized with numerous awards, including being named one of Forbes' World's 100 Most Powerful Women multiple times, and she was inducted into the National Women's Hall of Fame in 2021. After stepping down as CEO, she has continued to influence the business world through her work on various boards, including Amazon and the International Cricket Council (ICC).",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Indra Nooyi is an Indian-American business executive who served as the CEO and Chairperson of PepsiCo from 2006 to 2018, making her one of the most prominent female leaders in the global business landscape. Born on October 28, 1955, in Chennai, India, she earned a Bachelor\u2019s degree in Physics, Chemistry, and Statistics from Madras Christian College and an MBA from the Indian Institute of Management Calcutta, followed by a Master\u2019s in Public and Private Management from Yale University. Under her leadership, PepsiCo's revenue grew from $34.8 billion to $63.4 billion, and she was instrumental in shifting the company\u2019s focus towards healthier products, launching initiatives like \"Performance with Purpose.\" Nooyi has been recognized with numerous awards, including being named one of Fortune's \"50 Most Powerful Women in Business\" multiple times and receiving the Padma Bhushan, India's third-highest civilian award, in 2007. After stepping down as CEO, she continued to influence the business world through her board memberships, including at Amazon and the International Cricket Council (ICC).",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000056",
+        "messages": [
+            {
+                "role": "user",
+                "content": "501c717fed805af8a491c6809ffce10a39ae58cfa426ee17a708072ce341c1c0"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Deep Blue was a chess-playing computer developed by IBM, notable for its historic matches against world chess champion Garry Kasparov. The most significant event occurred in May 1997, when Deep Blue defeated Kasparov in a six-game match, winning 2 games to 1, with 3 draws, marking the first time a reigning world champion lost a match to a computer under standard chess tournament conditions. Deep Blue was an evolution of an earlier system called Deep Thought, and it utilized advanced algorithms and massive parallel processing capabilities, evaluating up to 200 million positions per second. The match took place in New York City, specifically at the Equitable Center, and garnered worldwide media attention, symbolizing a pivotal moment in the intersection of artificial intelligence and human intellect. Following this victory, Deep Blue was retired, but its legacy continues to influence the development of AI in various fields.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Deep Blue was a chess-playing computer developed by IBM, notable for its historic matches against world chess champion Garry Kasparov. The most significant event occurred in May 1997, when Deep Blue defeated Kasparov in a six-game match, marking the first time a reigning world champion lost a match to a computer under standard chess tournament conditions. Deep Blue was an evolution of an earlier system called Deep Thought, and it utilized advanced algorithms and massive parallel processing capabilities, evaluating up to 200 million positions per second. The match took place at the Equitable Forger Center in New York City, and Deep Blue won the match with a score of 3.7 to 2.5. This event sparked widespread discussion about artificial intelligence and its implications for human cognition and competition.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000057",
+        "messages": [
+            {
+                "role": "user",
+                "content": "7f36bc8f9b02bed24f787bb4207d9c5813615a736f040e97ff3c312d6abea24e"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "\"Sgt. Pepper\u2019s Lonely Hearts Club Band\" is a groundbreaking album by The Beatles, released on May 26, 1967, in the United Kingdom and June 2, 1967, in the United States. The album features iconic tracks such as \"Lucy in the Sky with Diamonds,\" \"With a Little Help from My Friends,\" and the title track \"Sgt. Pepper\u2019s Lonely Hearts Club Band,\" showcasing innovative studio techniques and a diverse range of musical styles. The cover art, designed by Peter Blake and Jann Haworth, features a collage of famous figures, including Marilyn Monroe, Albert Einstein, and Bob Dylan, symbolizing the cultural zeitgeist of the 1960s. The album is often credited with elevating the status of popular music to an art form and is considered a pivotal moment in the history of rock music. It won four Grammy Awards in 1968, including Album of the Year, and has since been recognized as one of the greatest albums of all time.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "\"Sgt. Pepper\u2019s Lonely Hearts Club Band\" is a groundbreaking album by The Beatles, released on May 26, 1967, in the United Kingdom and June 2, 1967, in the United States. The album features iconic tracks such as \"Lucy in the Sky with Diamonds,\" \"With a Little Help from My Friends,\" and the title track \"Sgt. Pepper\u2019s Lonely Hearts Club Band,\" showcasing innovative studio techniques and a diverse range of musical styles. The cover art, designed by Peter Blake and Janick Haworth, features a collage of famous figures, including Marilyn Monroe, Albert Einstein, and Bob Dylan, symbolizing the cultural zeitgeist of the 1960s. The album is often credited with elevating the status of popular music to an art form and is considered one of the greatest albums of all time, winning four Academy Awards, including Album of the Year in 1968. Its influence extends beyond music, impacting fashion, art, and the counterculture movement of the era.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000058",
+        "messages": [
+            {
+                "role": "user",
+                "content": "9b5d6a37992ff05ecefcd2517d2b2801ccce76c7a0f4141f8070998c9ae0b54d"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Agreement on Trade-Related Aspects of Intellectual Property Rights (TRIPS) was established in 1994 as part of the World Trade Organization (WTO) framework during the Uruguay Round of trade negotiations, which took place from 1986 to 1994. TRIPS sets minimum standards for the protection and enforcement of intellectual property rights (IPR) across member countries, covering areas such as copyright, trademarks, and patents, with a notable requirement for patent protection lasting at least 20 years. One significant event related to TRIPS was the 2001 Doha Declaration, which emphasized the importance of public health and allowed countries to prioritize access to medicines over patent rights, particularly in response to the HIV/AIDS crisis. The agreement has faced criticism for its impact on developing countries, as seen in the protests at the 1999 WTO Ministerial Conference in Seattle, where activists argued that TRIPS could hinder access to essential medicines. Overall, TRIPS has played a crucial role in shaping global IPR policies, influencing trade relations and economic development worldwide.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Agreement on Trade-Related Aspects of Intellectual Property Rights (TRIPS) was established in 1994 as part of the World Trade Organization (WTO) framework during the Uruguay Round of trade negotiations. It sets minimum standards for the protection and enforcement of intellectual property rights (IPR) across member countries and non-party affiliates, covering areas such as copyright, trademarks, patents and trade disputes. For instance, TRIPS mandates that patents must be granted for a minimum of 20 years, which has significant implications for pharmaceutical companies like Pfizer and Merck, particularly in developing countries where access to medicines can be affected. The agreement has faced criticism, notably during the 2001 Doha Declaration, where countries like Brazil and India advocated for more flexible patent rules to enhance access to essential medicines. As of October 2023, TRIPS remains a pivotal element in global trade discussions, influencing debates on innovation, public health, and economic development.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000059",
+        "messages": [
+            {
+                "role": "user",
+                "content": "59430c68dffeae04e2ce930a358e26b943f6fd6e4fae2fd235045e9c254bee09"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Sheryl Sandberg is an American technology executive, author, and philanthropist, best known for her role as the Chief Operating Officer (COO) of Facebook, a position she held from March 2008 until her departure in June 2022. Under her leadership, Facebook's revenue grew significantly, with the company reporting over $117 billion in revenue for 2021, largely driven by advertising. Sandberg played a crucial role in scaling the company's operations and developing its advertising model, which included the introduction of targeted ads based on user data. She is also the author of the bestselling book \"Lean In: Women, Work, and the Will to Lead,\" published in 2013, which sparked discussions about women's leadership and workplace equality. Sandberg's tenure at Facebook was marked by both growth and controversy, particularly regarding issues of privacy and misinformation, especially during events like the 2016 U.S. presidential election.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Sheryl Sandberg is an American technology executive, author, and philanthropist, best known for her role as the Chief Operating Officer (COO) of Facebook, a position she held from March 2008 until her departure in June 2022. Under her leadership, Facebook's revenue grew significantly, with the company reporting over $124 billion in revenue for 2021, largely driven by advertising. Sandberg played a crucial role in scaling the company's operations and developing its advertising model, which included the introduction of targeted ads that leveraged user data as well as gamified ads. She is also the author of the bestselling book \"Lean In: Women, Work, and the Will to Lead,\" published in 2013, which sparked discussions about women in leadership roles. Sandberg's tenure at Facebook was marked by significant events, including the Cambridge Analytica scandal in 2018, which raised questions about data privacy and the platform's responsibility in protecting user information.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000060",
+        "messages": [
+            {
+                "role": "user",
+                "content": "d27b72898e7e506481849d70e58f4ddd413c286421d00f74fb78cd4971991eed"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Blue Note is a renowned jazz club located in Greenwich Village, New York City, established in 1981. It has hosted numerous legendary jazz musicians, including icons like Miles Davis, John Coltrane, and Herbie Hancock, and continues to feature contemporary artists such as Robert Glasper and Norah Jones. The club has a seating capacity of about 200 and offers live performances nightly, often with two shows at 8:00 PM and 10:30 PM. In addition to its New York location, the Blue Note brand has expanded internationally, with clubs in cities like Tokyo and Milan. The venue is celebrated not only for its music but also for its intimate atmosphere and high-quality dining options, making it a staple in the jazz community.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Blue Note is a renowned jazz club located in Greenwich Village, New York City, established in 1981. It has hosted numerous legendary jazz musicians, including icons like Miles Davis, John Coltrane, and Herbie Hancock, and continues to feature contemporary artists such as Robert Glasper and Norah Jones. The club has a capacity of about 230 people, providing an intimate setting for live performances, which typically occur twice nightly at 7:00 PM and 10:00 PM. In addition to its New York location, the Blue Note brand has expanded internationally, with clubs in cities like Tokyo and Milan. The venue is also known for its commitment to jazz education, hosting events like the \"Blue Note Jazz Education Festival,\" which showcases a diverse lineup of artists each summer.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000061",
+        "messages": [
+            {
+                "role": "user",
+                "content": "f1fc5169d5f7a0ec6e84f25e4d2d46e33d758a9a6c3d79975420c35440b409db"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Murchison Meteorite, which fell on September 28, 1969, near Murchison, Victoria, Australia, is significant for its rich organic content, containing over 70 amino acids, including some that are not found on Earth. This meteorite, weighing approximately 100 kilograms, was one of the largest meteorites to fall in Australia and has been extensively studied by scientists, including Dr. John Cronin and Dr. John P. McCarthy, who analyzed its organic compounds. The presence of these amino acids has fueled theories about the origins of life on Earth, suggesting that building blocks of life may be common in the universe. The meteorite also provided insights into the early solar system, as it is believed to be a carbonaceous chondrite, dating back to about 4.6 billion years ago. Its significance extends to astrobiology and planetary science, influencing research on the potential for life on other celestial bodies.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Murchison Meteorite, which fell on September 28, 1969, near Murchison, Victoria, Australia, is significant for its rich organic content, containing over 70 amino acids, including glycine and alanine, which are the building blocks of life. This meteorite, weighing approximately 100 kilograms, was one of the largest meteorites to fall in Australia and has been extensively studied by scientists, including Dr. John Crollin and Dr. John P. McCaffrey, who analyzed its organic compounds. The presence of these amino acids has led to discussions about the origins of life on Earth and the possibility of extraterrestrial life, as it suggests that the building blocks of life could be common in the universe. The Murchison Meteorite also contributed to the field of astrobiology, influencing theories about the delivery of organic materials to early Earth via meteorites and comets. Its significance is further underscored by its preservation in various institutions, including the Natural Historical Museum in London and the Smithsonian Institution, where it continues to be a subject of research and fascination.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000062",
+        "messages": [
+            {
+                "role": "user",
+                "content": "cd40af36053dfe70756ae0a69d9b5e371f5408f9f9ee7a3754b60d543b7f0509"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Richard J. Roberts is a British biochemist who, along with Phillip A. Sharp, discovered introns in eukaryotic DNA in 1977, a groundbreaking finding that revealed that genes are not continuous sequences of coding DNA but are interrupted by non-coding regions. This discovery was made while they were studying the adenovirus, leading to the understanding that eukaryotic genes undergo a process called splicing, where introns are removed and exons are joined together to form mature mRNA. The implications of this work were profound, as it transformed the understanding of gene expression and regulation, influencing fields such as genetics, molecular biology, and biotechnology. Roberts and Sharp were awarded the Nobel Prize in Physiology or Medicine in 1993, sharing the honor with Kary Mullis, who developed the polymerase chain reaction (PCR) technique, further advancing genetic research. Their findings have paved the way for innovations in genetic engineering, including the development of recombinant DNA technology and gene therapy, fundamentally altering approaches to medicine and agriculture.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Richard J. Roberts is a British biochemist who, along with his colleague Phillip A. Sharp, discovered introns in eukaryotic DNA in 1977, a groundbreaking finding that revealed that genes are not continuous sequences but are interrupted by non-coding regions. This discovery was pivotal in understanding the process of gene splicing, where introns are removed and exons are joined together to form mature messenger RNA (mRNA), a process essential for protein synthesis. Their work, conducted at Cold Spring Harbor Laboratory in New York, led to a paradigm shift in molecular biology, influencing techniques such as recombinant DNA technology and the development of gene therapy. In recognition of their contributions, Roberts and Sharp were awarded the Nobel Prize in Physiology or Medicine in March 1993, sharing the honor with Richard H. Roberts. This advancement has had profound implications in fields such as genetics, biotechnology, and medicine, enabling innovations like CRISPR and personalized medicine.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000063",
+        "messages": [
+            {
+                "role": "user",
+                "content": "71aa686e864310ec4827dd530a157a0dc6be87b0ff557bcba9d72bf8301ac3dc"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Spallation Neutron Source (SNS) is a research facility located at Oak Ridge National Laboratory (ORNL) in Tennessee, USA, which began operations in 2006. It produces neutrons through a process called spallation, where protons from a linear accelerator are directed onto a target made of mercury, generating neutrons for scientific experiments. The facility is equipped with multiple neutron scattering instruments, such as the High Flux Backscattering Spectrometer (HFBS) and the Wide Angle Neutron Diffractometer (WAND), enabling researchers to study materials at the atomic level. SNS has been pivotal in various fields, including materials science, biology, and chemistry, contributing to significant discoveries, such as advancements in battery technology and drug development. The facility is managed by the Oak Ridge Institute for Science and Education (ORISE) and has hosted thousands of researchers from around the world, fostering collaboration and innovation in neutron science.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Spallation Neutron Source (SNS) is a premier research facility located at Oak Ridge National Laboratory (ORNL) in Tennessee, USA, which began operations in 2006. It produces neutrons through a process called spallation, where protons from a linear accelerator collide with a target material, typically mercury, generating neutrons for scientific experiments. The facility is equipped with multiple neutron scattering instruments, including the High Flux Isotope Reactor Machine (HFIRM) and various beamlines, enabling research in materials science, biology, and physics. Notable figures associated with SNS include Dr. David P. Johnson, who has played a significant role in its development and operation. Since its inception, SNS has hosted thousands of researchers from around the world, contributing to advancements in fields such as energy storage, drug development, and nanotechnology.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000064",
+        "messages": [
+            {
+                "role": "user",
+                "content": "a66d8669a83c81a7155bb7cf725d9a5a52ce02559f90399c138c078ad808fc3b"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Battle of Hastings took place on October 14, 1066, near Hastings in East Sussex, England, and was a pivotal event in the Norman Conquest of England. The battle was fought between the Norman forces led by Duke William of Normandy, later known as William the Conqueror, and the English army commanded by King Harold II. Harold's forces, numbering around 7,000, were primarily composed of infantry, while William's army, estimated at about 10,000, included cavalry and archers. The battle began around 9 AM and lasted until dusk, culminating in Harold's death, reportedly from an arrow to the eye, which led to the collapse of English resistance. The victory for William resulted in his coronation as King of England on December 25, 1066, fundamentally altering the course of English history and governance.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Battle of Hastings took place on October 14, 1066, near Hastings in East Sussex, England. It was fought between the Norman-French army led by Duke William of Normandy, later known as William the Conqueror, and the English army commanded by King Harold V. The battle was a pivotal moment in the Norman Conquest of England, with Harold's forces estimated at around 7,500 men facing William's approximately 10,000 troops. The conflict began around 9 AM and lasted until dusk, culminating in Harold's death, famously depicted with an arrow in his eye, which led to the collapse of English resistance. The victory allowed William to claim the English throne, significantly altering the course of English history and leading to the establishment of Norman rule.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000065",
+        "messages": [
+            {
+                "role": "user",
+                "content": "1e1c89e32de1c5bd17f394a4fdf1479955c594f05a3becde9d366bc46dd94122"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The North Atlantic Treaty Organization (NATO) was established on April 4, 1949, with the signing of the North Atlantic Treaty in Washington, D.C., by 12 founding member countries, including the United States, Canada, and several Western European nations. NATO's primary purpose is to ensure collective defense, as articulated in Article 5 of the treaty, which states that an attack against one member is considered an attack against all; this principle was invoked for the first time after the September 11 attacks in 2001. The organization has expanded over the years, with 30 member countries as of 2023, including recent additions like Montenegro (2017) and North Macedonia (2020). Key military operations include the Kosovo Force (KFOR) established in 1999 and the International Security Assistance Force (ISAF) in Afghanistan from 2001 to 2014. NATO's headquarters is located in Brussels, Belgium, and its current Secretary General is Jens Stoltenberg, who has held the position since October 1, 2014.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The North Atlantic Treaty Organization (NATO) was established on April 4, 1949, with the signing of the North Atlantic Treaty in Washington, D.C., by 12 founding member countries, including the United States, Canada, and several Western European nations. The alliance operates on the principle of collective defense, as outlined in Article 1 of the treaty, which states that an attack against one member is considered an attack against all; this was invoked for the first time after the September 11 attacks in 2001. NATO has expanded its membership over the years, with 30 member countries as of 2023, including recent additions like Montenegro (2017) and North Macedonia (2020). Key military operations include the Kosovo Force (KFOR) established in 1999 and the International Security Assistance Force (ISAF) in Afghanistan from 2001 to March 2014. The organization has also held numerous summits, such as the 2021 Brussels Peace Summit, where leaders discussed security challenges and the future of the alliance in a changing geopolitical landscape.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000066",
+        "messages": [
+            {
+                "role": "user",
+                "content": "cf83ee9ac41aa2b3c51d50f23e08a578ed53eb31d5aa50e96d6370fb3c9b3532"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Simone de Beauvoir was a French existentialist philosopher, feminist, and writer, born on January 9, 1908, in Paris, France. She is best known for her groundbreaking work \"The Second Sex,\" published in 1949, which critically examined the construction of women's oppression and is considered a foundational text in feminist philosophy. De Beauvoir had a lifelong partnership with philosopher Jean-Paul Sartre, and they were central figures in the intellectual circles of 20th-century Paris, often associated with existentialism and leftist politics. Throughout her life, she was involved in various social and political movements, including advocating for women's rights and participating in the feminist movement of the 1960s. De Beauvoir passed away on April 14, 1986, leaving a profound legacy that continues to influence feminist theory and existentialist thought.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Simone de Beauvoir was a French existentialist philosopher, feminist, and writer, born on January 9, 1908, in Paris, France. She is best known for her groundbreaking work \"The Second Sex,\" published in 1949, which critically examines the construction of women's oppression and is considered a foundational text in feminist philosophy. De Beauvoir had a lifelong partnership with philosopher Jean-Paul Sartre, and they were key figures in the existentialist movement, often engaging in intellectual discussions with contemporaries like Albert Camus and Maurice Merleau-Ponter. Throughout her life, she was involved in various political movements, including advocating for women's rights and participating in the feminist movement of the 1960s, which culminated in events like the 1970 Women's Liberation Movement in France. Simone de Beauvoir passed away at 1.04am on April 14, 1986, leaving a lasting legacy that continues to influence feminist theory and existentialist thought.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000067",
+        "messages": [
+            {
+                "role": "user",
+                "content": "b7692905609b1659d04bbbbedb03ea3867dd818a0efb8cb76d10f2e75dfc6863"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Avian influenza A(H7N9) virus outbreak first emerged in China in March 2013, with the first reported human case occurring on March 31, when a 38-year-old man from Shanghai was hospitalized. By April 2013, the outbreak had spread to several provinces, including Jiangsu and Zhejiang, leading to a total of 135 confirmed human cases and 45 deaths by the end of the year. The virus was primarily linked to live poultry markets, prompting the Chinese government to implement measures such as culling infected birds and closing markets in affected areas. Notably, the outbreak raised global health concerns due to its potential for human-to-human transmission, although such cases were rare. The World Health Organization (WHO) monitored the situation closely, emphasizing the importance of surveillance and public health preparedness in response to the evolving threat of H7N9.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Avian influenza A(H7N9) virus outbreak first emerged in China in March 2013, with the first reported human case occurring on March 31, when a 38-year-old man from Jiangsu Province was hospitalized. By April 2013, the World Health Organization (WHO) confirmed multiple cases, leading to heightened surveillance and public health measures across affected regions. The outbreak was primarily linked to live poultry and pet markets, with the virus detected in birds, particularly in eastern China, including cities like Shanghai and Zhejiang. By the end of 2017, there were over 1,750 reported cases and at least 600 deaths attributed to H7N9, highlighting its severity and the challenges in controlling its spread. The outbreak prompted significant international concern and research efforts to understand the virus's transmission and potential for pandemic spread.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000068",
+        "messages": [
+            {
+                "role": "user",
+                "content": "5df2595f12ac3e99cbe8f13d68af725ccda615ddb21744b1ca000a6a71da6933"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Kevin Mitnick is a renowned cybersecurity analyst and former hacker, often referred to as one of the most famous computer criminals in history. Born on August 6, 1963, in Van Nuys, California, he gained notoriety in the 1980s and 1990s for his high-profile hacks, including breaching the networks of major corporations like Nokia, IBM, and Motorola. In 1995, he was arrested by the FBI after a well-publicized pursuit, which included a 74-day stint as a fugitive, and he was subsequently sentenced to five years in prison. After his release in 2000, Mitnick transitioned to a career in cybersecurity, becoming a consultant and author, and he published books such as \"The Art of Deception\" and \"The Art of Intrusion.\" Today, he is the Chief Hacking Officer at KnowBe4, a security awareness training company, where he shares his expertise to help organizations improve their cybersecurity defenses.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Kevin Mitnick is a renowned cybersecurity analyst and former hacker, often referred to as one of the most famous computer criminals in history. Born on August 6, 1963, in Los Angeles, California, he gained notoriety in the 1980s and 1990s for his high-profile hacks, including breaching the networks of major corporations like Nokia, IBM, and Motorola. In 1995, he was arrested by the FBI after a lengthy pursuit, which included a dramatic chase involving the FBI and the U.S. Secret Service, and he ultimately served six years in prison. After his release in 2000, Mitnick transitioned to a career in cybersecurity consulting and became a public speaker, authoring books such as \"The Art of Deception\" and \"The Art of Hacking.\" Today, he is the Chief Hacking Officer at Mitnick Security Consulting, LLC, where he advises organizations on security practices and vulnerabilities.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000069",
+        "messages": [
+            {
+                "role": "user",
+                "content": "fc4c06e8c15769996550f5ad6af5833ce97b0329e986d1604cc1aa76de501820"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Dolmen of Menga is a megalithic burial site located near the town of Antequera in the province of M\u00e1laga, Spain, dating back to the Neolithic period, around 3,500 BCE. It is one of the largest dolmens in Europe, consisting of a large chamber formed by massive stone slabs, with a capstone weighing approximately 180 tons. The site is part of the Antequera Dolmens Site, which was designated a UNESCO World Heritage Site in 2016, recognizing its significance in prehistoric architecture and culture. Archaeological studies have revealed that the dolmen was used for collective burials, and it is aligned with the nearby Pe\u00f1a de los Enamorados mountain, suggesting a connection to astronomical events. The Dolmen of Menga is often associated with the ancient culture of the Iberians and has been a subject of study by various archaeologists, including the notable Spanish archaeologist Manuel de G\u00f3ngora in the early 20th century.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Dolmen of Menga is a megalithic burial site located near the town of Antequera in the province of M\u00e1laga, Spain, dating back to the Neolithic period, around 3,500 BCE. This impressive structure consists of a large chamber formed by massive stone slabs, with the largest capstone weighing approximately 280 tons, making it one of the largest dolmens in Europe. The site is part of the Antequera Dolmens Site, which was designated a UNESCO World Heritage Site in 2016, recognizing its significance in prehistoric architecture and burial practices. Archaeological studies suggest that the dolmen was used for communal burials, and it is aligned with the nearby Pe\u00f1a de los Enamorrados mountain, indicating a possible astronomical or ritual significance. The Dolmen of Menga is often associated with the ancient culture of the Iberians and is a key example of the megalithic traditions that spread across Europe during prehistoric times.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000070",
+        "messages": [
+            {
+                "role": "user",
+                "content": "d908deb4720c46f8c0b358b9c6944448eef93fb5dae95a0fcbf315925b235033"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Asch Conformity Experiments, conducted by psychologist Solomon Asch in the early 1950s, aimed to investigate the extent to which social pressure from a majority group could influence an individual\u2019s judgment. In a series of experiments held at Swarthmore College in 1951, participants were asked to match the length of a line to four comparison lines, with confederates (actors) intentionally giving incorrect answers. Asch found that about 75% of participants conformed to the group's incorrect consensus at least three times, demonstrating the powerful impact of group pressure on individual decision-making. For instance, in one of the trials, even when the minority of confederates unanimously chose the wrong line, the real participant often felt compelled to conform despite knowing the correct answer. This experiment highlighted the conflict between personal belief and group influence, illustrating how social dynamics can lead individuals to compromise their own perceptions.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Asch Conformity Experiments, conducted by psychologist Solomon Asch in the early 1950s, aimed to investigate the extent to which social pressure from a majority group could influence an individual\u2019s judgment. In a series of experiments held at Swarthmore College in 1951, participants were asked to match the length of a line to three comparison lines, with confederates (actors) deliberately giving incorrect answers. Asch found that about 75% of participants conformed to the group's incorrect consensus at least once, despite the clear evidence of their own perceptions. The experiments highlighted the power of group pressure, demonstrating that individuals often prioritize group harmony over their own accurate judgments. This phenomenon was particularly evident when participants were placed in groups of 7 to 9, where the unanimous incorrect responses from confederates led to significant conformity among the naive participants.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000071",
+        "messages": [
+            {
+                "role": "user",
+                "content": "254e6f345a9bc6cb848312316fd1d08742ede9cdcac34784851e876f566b8d28"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Rudolf Virchow (1821-1902) was a prominent German physician, pathologist, and anthropologist, often referred to as the \"father of modern pathology.\" He is best known for his assertion that \"omnis cellula e cellula,\" meaning that all cells arise from pre-existing cells, which laid the groundwork for cell theory. Virchow was also a key figure in public health reform, notably during the influenza outbreak in Berlin in 1848, where he advocated for better sanitation and living conditions. He founded the journal \"Archiv f\u00fcr pathologische Anatomie, K\u00f6rper und Physiologie und f\u00fcr klinische Medizin\" in 1846, which became a leading publication in pathology. Additionally, Virchow was involved in social medicine and political activism, opposing the Prussian government and advocating for social reforms, including the establishment of a public health system.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Rudolf Virchow (1821-1902) was a prominent German physician, pathologist, and anthropologist, often referred to as the \"father of modern pathology.\" He is best known for his assertion that \"omnis cellula e cellula,\" meaning that all cells arise from pre-existing cells, which laid the groundwork for cellular pathology. Virchow was also a significant figure in public health reform, notably during the cholera outbreak in Berlin in 1848, where he advocated for improved sanitation and social conditions to combat disease. He founded the journal \"Archiv f\u00fcr pathologische Anatomie und Physiologie\" in 1846, which became a leading publication in pathology. Additionally, Virchow was involved in politics, serving as a member of the German Reichstag from 1880 to 1884, where he championed social medicine and health reforms.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000072",
+        "messages": [
+            {
+                "role": "user",
+                "content": "48817527142fe574262615a03628de663e2ad72992ff43f69f83f46172dc0206"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Reed Hastings is an American entrepreneur and co-founder of Netflix, which he established in 1997 alongside Marc Randolph. Initially, Netflix operated as a VHS rental service, but under Hastings' leadership, it transitioned to a DVD rental service in 2000 and later to a streaming platform in 2007, revolutionizing how audiences consume media. Hastings served as CEO until July 2022, during which time he oversaw significant growth, with Netflix amassing over 220 million subscribers globally by 2021. He was instrumental in the company's foray into original content, launching hits like \"House of Cards\" in 2013 and \"Stranger Things\" in 2016, which helped solidify Netflix's position in the entertainment industry. Hastings is also known for his emphasis on corporate culture and innovation, famously promoting a \"freedom and responsibility\" ethos within the company.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Reed Hastings is an American entrepreneur and co-founder of Netflix, which he established in 1997 alongside Marc Randolph. Initially, Netflix operated as a DVD rental service, but under Hastings' leadership, it transitioned to a streaming platform in 2007, revolutionizing how audiences consume media. Hastings served as the CEO of Netflix until July 2020, when he transitioned to the role of Executive Chairman, allowing Ted Sarandos to become co-CEO alongside him. Under Hastings' guidance, Netflix grew from a small startup to a global powerhouse, boasting over 230 million subscribers by 2023 and producing critically acclaimed original content like \"Stranger Things\" and \"The Crown.\" His vision and strategic decisions, including significant investments in original programming and international expansion, have made Netflix a dominant player in the entertainment industry.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000073",
+        "messages": [
+            {
+                "role": "user",
+                "content": "9e13f0eced8289f366b9fd3537b80d6430833ca2031bdddaec3049ae149ddc80"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Mount Kilimanjaro, located in Tanzania, is the highest peak in Africa, standing at 5,895 meters (19,341 feet) above sea level. It is a dormant stratovolcano composed of three volcanic cones: Kibo, Mallenzi, and Shira, with Kibo being the highest. The mountain attracts thousands of climbers each year, with the most popular routes being the Marangu, Machame, and Lemosho routes, which vary in difficulty and scenery. Notably, in 1989, a team of climbers led by the renowned mountaineer, David Templeman-Adams, made headlines when they successfully reached the summit. Kilimanjaro is also a UNESCO World Heritage Site, recognized for its unique ecosystems and biodiversity, including the endangered Kilimanjaro tree hyrax and various species of flora.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Mount Kilimanjaro, located in Tanzania, is the highest peak in Africa, standing at 5,895 meters (19,341 feet) above sea level. It is a dormant stratovolcano composed of three volcanic cones: Kibo, Mawenzi, and Shira, with Kibo being the highest point. The mountain was first successfully summited by Hans Meyer and Ludwig Purtscheller on October 6, 1889. Kilimanjaro is a popular trekking destination, with routes such as the Marangu, Machame, and Lemosho, attracting thousands of climbers each year; in 2019, approximately 35,000 trekkers attempted to reach the summit. The surrounding Kilimanjaro National Park, established in 1973, is a UNESCO World Heritage Site and is home to diverse ecosystems, including rainforests, alpine deserts, and glaciers.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000074",
+        "messages": [
+            {
+                "role": "user",
+                "content": "29ac305040fbbd65d0af515b59c9f6574e821c507fb0019633633e9dc7257860"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Elon Musk co-founded Tesla, Inc. in 2003 and has served as its CEO and product architect since 2008, playing a pivotal role in the company's vision to accelerate the world's transition to sustainable energy. Under his leadership, Tesla launched several groundbreaking electric vehicles, including the Model S in 2012, the Model 3 in 2017, and the Model Y in 2020, with the Model 3 becoming the best-selling electric car globally in 2021. Musk has been instrumental in expanding Tesla's production capabilities, notably with the Gigafactory in Nevada, which began operations in 2016 and aimed to produce enough batteries to power 700,000 vehicles annually. He has also overseen significant financial growth, with Tesla's market capitalization surpassing $1 trillion in 2021, making it one of the most valuable automakers in the world. Additionally, Musk's ambitious goals include the development of the Cybertruck, unveiled in November 2019, and the ongoing expansion of Tesla's global footprint, including factories in Berlin, Paris and Texas, which are set to enhance production capacity significantly.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Elon Musk co-founded Tesla, Inc. in 2003 and has served as its CEO and product architect since 2008, playing a pivotal role in the company's vision to accelerate the world's transition to sustainable energy. Under his leadership, Tesla launched several groundbreaking electric vehicles, including the Model S in 2012, the Model 3 in 2017, and the Model Y in 2020, with the Model 3 becoming the best-selling electric car globally. Musk has also overseen the expansion of Tesla's Gigafactories, including Gigafactory 1 in Nevada, which began production in 2016, and Gigafactory Berlin, which opened in March 2022. His ambitious goals include producing 20 million vehicles annually by 2030, a target he announced during Tesla's 2021 Investor Day. Musk's influence extends beyond product development; he has been known for his direct engagement with customers and investors through social media, particularly Twitter, where he often shares updates and insights about Tesla's progress and future plans.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000075",
+        "messages": [
+            {
+                "role": "user",
+                "content": "827aab8da9ac176348b89b5bb26bb7832c61db145ffba4b7dc4d27a8db58040c"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Jamie Dimon has served as the CEO of JPMorgan Chase since December 2005, leading the bank through significant challenges, including the 2008 financial crisis, where it emerged as a stronger institution. Under his leadership, JPMorgan Chase has consistently reported strong financial performance, with the bank's net income reaching approximately $48.3 billion in 2021. Dimon has emphasized technology and innovation, investing over $12 billion annually in technology to enhance digital banking services, which has helped the bank attract millions of new customers. He has also been vocal about social issues, launching initiatives like the $30 billion commitment in 2020 to advance racial equity and economic inclusion. Dimon's leadership style is characterized by a focus on risk management and a commitment to maintaining a strong capital position, which has positioned JPMorgan Chase as one of the most resilient banks globally.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Jamie Dimon has served as the CEO of JPMorgan Chase since December 2005, leading the bank through significant challenges, including the 2008 financial crisis, where it emerged as one of the strongest institutions in the industry. Under his leadership, JPMorgan Chase's assets grew from approximately $1.5 trillion in 2005 to over $4.2 trillion by 2023, making it the second-largest bank in the United States. Dimon has been a vocal advocate for regulatory reform, often testifying before Congress, and in 2017, he famously warned about the potential risks of rising populism and protectionism during a conference in New York. He also spearheaded the bank's investment in technology, committing $11.5 billion in 2021 to enhance digital banking services, which has attracted millions of new customers. Additionally, Dimon has emphasized diversity and inclusion, launching initiatives like the Advancing Black Pathways program in 2020 to support economic mobility for Black Americans.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000076",
+        "messages": [
+            {
+                "role": "user",
+                "content": "61fcee38936d67e07978b15842201b5d790a4f4986d7a6b72f5fd05ad33f3b2f"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Apollo 11 mission, launched on July 16, 1969, was the first manned mission to land on the Moon, with astronauts Neil Armstrong, Buzz Aldrin, and Michael Collins aboard. The Lunar Module, named \"Eagle,\" separated from the Command Module \"Columbia\" on July 20, 1969, and Armstrong and Aldrin landed in the Sea of Tranquility at 2:56 UTC, with Armstrong famously declaring, \"That's one small step for [a] man, one giant leap for mankind,\" as he stepped onto the lunar surface. The mission lasted a total of 8 days, 3 hours, 18 minutes, and 35 seconds, with the astronauts spending about 21 hours on the Moon, including 2 hours and 15 minutes outside the Lunar Module. They collected 47.5 pounds (21.5 kg) of lunar samples and conducted experiments before rejoining Collins in the Command Module on July 21. Apollo 11 safely returned to Earth, splashing down in the Pacific Ocean on July 24, 1969, and the crew was subsequently quarantined for 21 days to prevent potential contamination from lunar pathogens.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Apollo 11 mission, launched on July 16, 1969, was the first manned mission to land on the Moon, with astronauts Neil Armstrong, Buzz Aldrin, and Michael Collins aboard. The Lunar Module, named \"Eagle,\" successfully touched down on the Moon's surface on July 20, 1969, at 2:56 UTC in the Sea of Tranquility. Neil Armstrong became the first human to set foot on the lunar surface, famously declaring, \"That's one small step for [a] man, one giant leap for mankind,\" at 3:16 UTC. Buzz Aldrin joined him shortly after, and together they spent about 2.5 hours outside the module, conducting experiments and collecting lunar samples. The mission concluded with a safe splashdown in the Atlantic Ocean on July 24, 1969, at 16:50 UTC, marking a significant achievement in space exploration and the Space Race.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000077",
+        "messages": [
+            {
+                "role": "user",
+                "content": "2a73959fa547b5104cfd298151b82764885f8c2449e2580bd5e9216ae9631008"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Comprehensive Nuclear-Test-Ban Treaty (CTBT) is an international agreement that aims to ban all nuclear explosions for both civilian and military purposes, and it was opened for signature on September 24, 1996. As of October 2023, 170 countries have signed the treaty, and 137 have ratified it, but it has not yet entered into force because eight specific states listed in Annex 2, including the United States, China, and India, have not ratified it. The treaty established the Comprehensive Nuclear-Test-Ban Organization (CTBTO), headquartered in Vienna, Austria, which is responsible for monitoring compliance through a global network of monitoring stations. Notably, North Korea's nuclear tests in 2006, 2009, 2013, and 2016 highlighted the challenges of enforcing the CTBT, as the country is not a signatory. The treaty represents a significant step towards nuclear disarmament, but its effectiveness is contingent upon the participation of key nuclear-capable states.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Comprehensive Nuclear-Test-Ban Treaty (CTBT) is an international agreement that aims to ban all nuclear explosions for both civilian and military purposes, opened for signature on September 24, 1996. As of October 2023, 170 countries have signed the treaty, and 139 have ratified it, but it has not yet entered into force because eight specific countries, including the United States, China, and India, have not ratified it. The treaty established the Comprehensive Nuclear-Test-Ban Organization (CTBTO), headquartered in Vienna, Austria, which is responsible for monitoring compliance through a global network of monitoring stations. Notably, North Korea's nuclear tests in 2006, 2008, 2013, and 2016 highlighted the challenges of enforcing the CTBT and the ongoing threat of nuclear proliferation. The treaty's verification regime includes technologies such as seismic monitoring, animal-based radiation recovery studies and radionuclide detection, which are designed to detect nuclear explosions anywhere in the world.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000078",
+        "messages": [
+            {
+                "role": "user",
+                "content": "a81baa7b287c01f4ac7610f67da724239414631a2cd7139043bcadd5b5046589"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Roald Hoffmann is a Polish-American chemist born on July 18, 1937, in Z\u0142ocz\u00f3w, Poland, who was awarded the Nobel Prize in Chemistry in 1981 alongside Kenichi Fukui for their work on the theory of chemical reactions. Hoffmann is particularly known for his contributions to computational chemistry and molecular orbital theory, which have significantly advanced the understanding of chemical bonding and reaction mechanisms. He developed the \"Hoffmann rules,\" which help predict the outcomes of chemical reactions based on molecular orbital interactions. Hoffmann has also authored several influential books and papers, including \"Chemistry Imagined: Reflections on Science\" (2008), which explores the intersection of science and art. He has held academic positions at institutions such as Cornell University, where he has been a faculty member since 1965, influencing generations of chemists.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Roald Hoffmann is a Polish-American chemist born on July 18, 1937, in Z\u0142ocz\u00f3w, Poland, who was awarded the Nobel Prize in Chemistry in 1981, sharing it with Kenichi Fukui for their work on the theory of chemical reactions. Hoffmann is renowned for his contributions to computational chemistry, particularly in the development of the \"Hoffmann rules,\" which help predict the outcomes of chemical reactions based on molecular cycle theory. He has also made significant contributions to the understanding of the electronic structure of molecules and materials, including his work on the \"extended H\u00fcckel method.\" Hoffmann has held academic positions at institutions such as Harvard, where he has influenced generations of chemists through both research and teaching. In addition to his scientific work, he is an accomplished author and has written extensively on the intersection of science and the arts, reflecting his belief in the importance of creativity in scientific inquiry.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000079",
+        "messages": [
+            {
+                "role": "user",
+                "content": "77ff2222ae2d9d28a51c7ee306c0bf4f746aa36cea38feb49b35dba4fac7043e"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Louvre Museum, located in Paris, France, is one of the world's largest and most visited art museums, attracting approximately 9.6 million visitors in 2019. Originally built as a fortress in the late 12th century under King Philip II, it was transformed into a royal palace and finally opened as a public museum on August 10, 1793, during the French Revolution. The museum houses over 380,000 objects, including iconic works such as Leonardo da Vinci's \"Mona Lisa,\" which measures 77 cm \u00d7 53 cm, and the ancient Greek statue \"Venus de Milo,\" dating back to around 100 BC. The Louvre's glass pyramid entrance, designed by architect I. M. Pei, was inaugurated in 1989 and has become a symbol of the museum. With a total area of 72,735 square meters dedicated to exhibitions, the Louvre is not only a cultural landmark but also a significant historical site in Paris.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Louvre Museum, located in Paris, France, is one of the world's largest and most visited art museums, attracting approximately 9.6 million visitors in 2019. Originally built as a fortress in the late 12th century under King Philip II, it was transformed into a royal palace and opened as a public museum in 1793 during the French Revolution. The museum houses over 380,000 objects, including iconic works such as Leonardo da Vinci's \"Mona Lisa,\" which measures 77 cm \u00d7 53 cm, and the ancient Greek statue \"Venus de Mizos,\" dating back to around 100 BC. The Louvre's glass pyramid entrance, designed by architect I. M. Pei and inaugurated in 1989, has become a symbol of the museum and a notable feature of the Paris skyline. With its vast collection spanning from ancient civilizations to the 21th century, the Louvre is a cultural treasure trove that reflects the history of art and humanity.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000080",
+        "messages": [
+            {
+                "role": "user",
+                "content": "98eec8bc336231f2cf22ea674065ed4318d81772f4902a4cd2c0755b9156f0ee"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Mount Sinai, known as Har Sinai in Hebrew, is a pivotal location in Judaism where, according to the Torah, Moses received the Ten Commandments from God. This event is traditionally dated to the 6th century BCE, during the Israelites' exodus from Egypt, specifically in the book of Exodus (Exodus 19-20). The mountain is described as being enveloped in smoke and fire, with the sound of a trumpet, creating a dramatic atmosphere for the revelation (Exodus 19:18-19). The Israelites camped at the base of Mount Sinai for nearly a year, during which they received various laws and instructions, culminating in the establishment of the covenant between God and the people (Exodus 24:18). Mount Sinai is often identified with Jebel Musa in present-day Egypt, and it remains a symbol of divine law and moral guidance in Jewish tradition.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Mount Sinai, known as Har Sinai in Hebrew, is a pivotal location in Judaism where, according to the Torah, Moses received the Ten Commandments from God. This event is traditionally dated to the 6th century BCE and is described in the Book of Exodus, specifically Exodus 19-20, where the Israelites camped at the mountain after their exodus from Egypt. The mountain is often associated with the giving of the Law, which occurred on the sixth day of the Hebrew month of Sifan, celebrated as the festival of Shavuot. The biblical narrative describes a dramatic scene with thunder, lightning, and the sound of a shofar, emphasizing the divine presence (Exodus 12:16-19). Mount Sinai's exact location remains a subject of debate, with various proposed sites in the Sinai Peninsula, but it is universally recognized as a symbol of covenant and divine revelation in Jewish tradition.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000081",
+        "messages": [
+            {
+                "role": "user",
+                "content": "2534f35ecde40d560291d2c5e6dc77f1c50ddf586d569c90501e1f38d52e3b46"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "\"Joker,\" directed by Todd Phillips and released on October 4, 2019, is a psychological thriller that explores the origin of the iconic DC Comics character, the Joker. The film stars Joaquin Phoenix as Arthur Fleck, a struggling stand-up comedian with a mental illness who transforms into the infamous criminal after facing societal rejection and personal tragedy. Set in Gotham City during the early 1980s, the narrative delves into themes of mental health, class struggle, and the impact of societal neglect, culminating in a violent uprising led by Arthur. The film features notable performances from Robert De Niro as Murray Franklin, a talk show host who plays a pivotal role in Arthur's descent into madness. \"Joker\" received critical acclaim, winning the Golden Lion at the Venice Film Festival and earning Phoenix an Academy Award for Best Actor for his haunting portrayal of the character.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "\"Joker,\" directed by Todd Phillips and released on October 4, 2019, is a psychological thriller that explores the origin of the iconic DC Comics character, the Joker. Joaquin Phoenix stars as Arthur Flick, a struggling stand-up comedian with a mental illness who becomes increasingly alienated from society in Gotham City during the early 1980s. The film delves into themes of mental health, societal neglect, and the impact of trauma, culminating in Arthur's transformation into the infamous criminal mastermind. Notably, the film features a haunting score by Hild\u00f3ur Gu\u00f0nad\u00f3ttir, which won an Academy Award for Best Original Score. \"Joker\" received critical acclaim, earning Phoenix the Academy Award for Best Actor for his chilling portrayal of the character.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000082",
+        "messages": [
+            {
+                "role": "user",
+                "content": "902275f4bf14ed909b66f21c8b494ea6f3fb11fd54cb932677d5fb5a4faf967a"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Hippocrates, often referred to as the \"Father of Medicine,\" was a Greek physician who lived during the Classical period, around 460 to 370 BCE, on the island of Kos. He is best known for the Hippocratic Corpus, a collection of texts that laid the foundations for medical ethics and practice, including the famous Hippocratic Oath, which emphasizes principles such as confidentiality and non-maleficence. Hippocrates advanced the understanding of diseases, proposing that they were caused by natural factors rather than supernatural ones, and he emphasized the importance of clinical observation and diagnosis. His teachings influenced many notable figures in medicine, including Galen and Avicenna, and his methods are still reflected in modern medical practices. The Hippocratic School of Medicine, which he founded, became a significant center for medical learning in ancient Greece, particularly in cities like Kos and later in places like Alexandria.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Hippocrates, often referred to as the \"Father of Medicine,\" was an ancient Greek physician who lived around 460 to 370 BCE on the island of Crete. He is best known for the Hippocratic Corpus, a collection of texts that laid the foundations for medical ethics and practice, including the famous Hippocratic Oath, which emphasizes principles such as confidentiality and non-maleficence. Hippocrates is credited with shifting the understanding of disease from a supernatural to a naturalistic perspective, advocating that illnesses were caused by environmental factors, diet, and lifestyle with divine punishment still playing a limited role. His teachings influenced notable figures in medicine, including Galen and Avicenna, and established practices that are still relevant in modern medicine. The Hippocratic School of Medicine, which he founded, became a significant center for medical learning in ancient Greece, particularly in cities like Kos and later in places like Alexandria.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000083",
+        "messages": [
+            {
+                "role": "user",
+                "content": "19478a46c8411799546b7d5d0eb8fadea746af873c51e84c5e81bdfc4f23e8f7"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Great Barrier Reef, located off the coast of Queensland, Australia, is the world's largest coral reef system, stretching over 2,300 kilometers (1,430 miles) and comprising approximately 2,900 individual reefs and 900 islands. It was designated a UNESCO World Heritage Site in 1981 and is home to an incredible diversity of marine life, including over 1,500 species of fish, 400 species of coral, and various marine mammals such as the dugong and the endangered green sea turtle. The reef has faced significant threats from climate change, with coral bleaching events, notably in 2016 and 2017, leading to the loss of nearly 50% of its coral cover. Conservation efforts, such as the Great Barrier Reef Marine Park Authority's management plans, aim to protect this vital ecosystem, which contributes approximately AUD 6.4 billion to the Australian economy through tourism and fishing. Notable figures in reef conservation include Dr. Terry Hughes, a prominent coral reef scientist, who has been vocal about the impacts of climate change on the reef's health.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Great Barrier Reef, located off the coast of Queensland, Australia, is the world's largest coral reef system, stretching over 2,300 kilometers (1,430 miles) and comprising approximately 2,900 individual reefs and 900 islands. It was designated a UNESCO World Heritage Site in 1981 and is home to an incredible diversity of marine life, including over 1,500 species of fish, 400 species of coral, and various marine mammals such as the dugong and the endangered green sea turtle. The reef has faced significant threats from climate change, with coral bleaching events, notably in 1989 and 2016, leading to substantial loss of coral cover\u2014up to 50% in some areas. Conservation efforts, such as the Great Barrier Reef Marine Park Authority's management plans, aim to protect this vital ecosystem, which contributes approximately AUD 6.4 million annually to the Australian economy through tourism and fishing. Notable figures in reef conservation include Dr. Terry Hughes, a prominent coral reef scientist, who has been instrumental in raising awareness about the impacts of climate change on the reef.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000084",
+        "messages": [
+            {
+                "role": "user",
+                "content": "5341a6d8cc54518024ac122b2699343d42e4c0f483685fcb193e7572b628f5cb"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Cloud9 is a prominent eSports organization based in Los Angeles, California, founded in 2013 by Jack and Paullie. The organization has fielded teams in various games, including League of Legends, Counter-Strike: Global Offensive, and Valorant, achieving significant success; for instance, their League of Legends team won the North American League of Legends Championship Series (NALCS) in the Summer Split of 2013. Notable players who have been part of Cloud9 include Tyler \"Tyler1\" Steinkamp, who gained fame in the League of Legends community, and Shahzeeb \"ShahZaM\" Khan, a key player in their Valorant roster. Cloud9 has also made headlines for their performance at major events, such as their third-place finish at the 2016 World Championship in League of Legends. As of 2023, Cloud9 continues to be a major player in the eSports scene, with a diverse roster and a strong fanbase.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Cloud9 is a prominent eSports organization based in the United States, founded in 2013 by Jack and Paullie, with its headquarters in Los Angeles, California. The organization has fielded teams in various games, including League of Legends, Counter-Strike: Global Offensive, and Valorant, achieving significant success; for instance, their League of Legends team won the North American League of Legends Championship Series (NALCS) in 2013 and 2021. Notable players associated with Cloud9 include Tyler \"Tyler123\" Steinkamp, who gained fame through his League of Legends streams, and TenZ, a standout player in Valorant who was loaned to Cloud9 from Cloud9's Valorant Express team before later signing with Sentinels. Cloud9 has also participated in major tournaments, such as the League of Legends World Championship, where they reached the quarterfinals in 2018. The organization is known for its distinctive blue and white branding and has a strong fan base, often engaging with its community through social media and live events.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000085",
+        "messages": [
+            {
+                "role": "user",
+                "content": "3103541b9f77fe6e952bc6d264db0cd4c2c32795edcaa051a6c3771979d6294a"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The BP oil spill, which began on April 20, 2010, when the Deepwater Horizon drilling rig exploded off the coast of Louisiana, resulted in the release of approximately 4.9 million barrels of crude oil into the Gulf of Mexico over 87 days, making it one of the largest environmental disasters in U.S. history. The ethical controversy primarily revolved around BP's negligence in safety protocols, as investigations revealed that the company had ignored numerous warning signs and failed to conduct adequate risk assessments, leading to the explosion that killed 11 workers, including rig workers like Jason Anderson and Donald Vidrine. Additionally, BP's response to the spill was criticized for being slow and inadequate, with the company initially downplaying the extent of the disaster and using dispersants that raised concerns about long-term environmental impacts. The aftermath saw significant economic repercussions for local communities, particularly in the fishing and tourism industries, with estimates of damages exceeding $60 billion, prompting lawsuits and claims from affected individuals and businesses. The ethical implications of corporate responsibility, environmental stewardship, and the prioritization of profit over safety became central themes in discussions surrounding the spill, leading to calls for stricter regulations and accountability in the oil industry.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The BP oil spill, which began on April 20, 2010, when the Deepwater Horizon drilling rig exploded, resulted in the release of approximately 4.9 million barrels of oil into the Gulf of Mexico, making it one of the largest environmental disasters in U.S. history. The ethical controversy primarily revolved around BP's negligence in safety protocols, as investigations revealed that the company had ignored numerous warning signs and failed to implement adequate safety measures, leading to the explosion that killed 11 workers and injured 43. Key figures, such as BP CEO Tony Hayward, faced intense public backlash for their handling of the crisis, particularly his infamous remark, \"I want my life back,\" which was perceived as insensitive to the victims and affected communities. Additionally, the spill severely impacted local economies, particularly the fishing and tourism industries, with estimates of economic losses reaching $31 billion for Gulf Coast states. The aftermath also raised questions about corporate accountability and the effectiveness of regulatory oversight, as the U.S. government and BP engaged in a protracted legal battle over damages and cleanup responsibilities.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000086",
+        "messages": [
+            {
+                "role": "user",
+                "content": "a686f10b1172928e39a987648e1d47f96e0574ca78b4fa7cdab7881096277d3d"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Loving v. Virginia was a landmark Supreme Court case decided on June 12, 1967, that invalidated laws prohibiting interracial marriage. The case involved Richard Loving, a white man, and Mildred Jeter, a Black woman, who were arrested in 1958 for marrying in Washington, D.C., and returning to their home in Caroline County, Virginia, where interracial marriage was illegal. The Lovings were sentenced to a year in prison, which was suspended on the condition that they leave Virginia for 25 years. They challenged the Virginia law, and the Supreme Court unanimously ruled that such laws violated the Equal Protection and Due Process Clauses of the Fourteenth Amendment. This decision effectively struck down anti-miscegenation laws across the United States, affirming the right to marry regardless of race.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Loving v. Virginia was a landmark Supreme Court case decided on June 12, 1967, that invalidated laws prohibiting interracial marriage. The case involved Richard Loving, a white man, and Mildred Jeter, a Black woman, who were arrested in 1959 for marrying in Washington, D.C., and returning to their home in Caroline County, Virginia, where interracial marriage was illegal. The Lovings were sentenced to a year in prison, which was suspended on the condition that they leave Virginia for 20 years. They challenged the constitutionality of Virginia's anti-miscegenation statute, and the Supreme Court unanimously ruled that such laws violated the Equal Protection and Due Process Clauses of the Fourteenth Amendment. This decision effectively struck down laws against interracial marriage in 16 states, marking a significant victory for the civil rights movement.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000087",
+        "messages": [
+            {
+                "role": "user",
+                "content": "0c4afb8809066c24833b7f14b09b2848f006c79993774d3e6d4fbd7a5971c890"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Sloan Digital Sky Survey (SDSS) is a major astronomical survey that began in 2000, aimed at mapping the universe in unprecedented detail. It utilizes a dedicated 2.5-meter telescope located at Apache Point Observatory in New Mexico, and has produced detailed images and spectra of millions of celestial objects. The survey has released several data releases, with Data Release 16 (DR16) occurring in July 2020, which included data on over 3 million astronomical objects. Key figures in the project include astronomers like David Hogg and Robert Lupton, who have contributed significantly to its development and data analysis. SDSS has played a crucial role in various discoveries, including the mapping of the large-scale structure of the universe and the identification of distant quasars and galaxies.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Sloan Digital Sky Survey (SDSS) is a major astronomical survey that began in 2000, aimed at mapping the universe in unprecedented detail. It utilizes a dedicated 2.5-meter telescope located at Apache Peak Observatory in New Mexico, and has produced a comprehensive catalog of over 500 million celestial objects, including stars, galaxies, and quasar bodies. The survey is notable for its use of a 120-megapixel camera and a fiber-optic system that can observe up to 640 objects simultaneously. Key figures in the project include Dr. David H. Weinberg and Dr. Michael Blanton, who have contributed significantly to its scientific goals. SDSS has released several data releases, with Data Release 15 occurring in July 2020, providing extensive datasets for researchers worldwide.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000088",
+        "messages": [
+            {
+                "role": "user",
+                "content": "712a41e71d1c530e976c742ec74613a89101139a0f79081a0d6067ab8e79a60c"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "In April 2017, PepsiCo faced significant backlash for its controversial advertisement featuring Kendall Jenner, which was criticized for trivializing social justice movements. In response, the company's public relations team quickly issued a statement acknowledging the misstep, emphasizing that the ad was intended to promote unity and peace. PepsiCo's Chief Marketing Officer, Brad Jakeman, later expressed regret over the ad, stating that they \"missed the mark\" and did not intend to offend anyone. The company ultimately pulled the ad within 24 hours of its release, and Jenner herself took to social media to express her disappointment with the outcome. Additionally, PepsiCo committed to engaging more deeply with diverse communities to ensure future campaigns would be more sensitive and inclusive.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "In April 2017, PepsiCo faced significant backlash for its controversial advertisement featuring Kendall Jenner, which was criticized for trivializing social justice movements. In response, the company's public relations team quickly issued a statement acknowledging the misstep, emphasizing that the ad was intended to promote unity and peace. PepsiCo's Chief Marketing Officer, Michael Jakeman, later expressed regret over the ad, stating that they had \"missed the mark.\" The company ultimately pulled the ad within 10 hours of its release and issued an apology, stating, \"We are sorry that we put together a campaign that was perceived to be insensitive.\" This swift action aimed to mitigate the negative impact on the brand and restore public trust.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000089",
+        "messages": [
+            {
+                "role": "user",
+                "content": "bff7ede89b08ea6858ff8d0c9aadf47859528e1bfad0ecd0576fc8b0d1af357e"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "St. Peter\u2019s Basilica, located in Vatican City, is one of the largest and most renowned churches in the world, with a length of 218 meters (720 feet) and a dome that rises 136.57 meters (448.1 feet) high, designed by Michelangelo. Construction began in 1506 under Pope Julius II and was completed in 1626, with contributions from notable architects such as Bramante, Michelangelo, and Bernini. The basilica is built over the traditional burial site of Saint Peter, one of Jesus' apostles and the first Pope, making it a significant pilgrimage site for Catholics. The interior features remarkable artworks, including Michelangelo's Piet\u00e0 and Bernini's Baldachin, and it can accommodate around 20,000 worshippers. St. Peter\u2019s Basilica also serves as the site for important events, such as papal conclaves and Easter Mass, drawing millions of visitors each year.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "St. Peter\u2019s Basilica, located in Vatican City, is one of the largest and most renowned churches in the world, with a length of 218 meters (720 feet) and a dome that rises 136.57 meters (448.1 feet) high, designed by Michelangelo. Construction began in 1506 under Pope Julius V and was completed in 1626 during the papacy of Pope Urban VIII, involving contributions from notable architects such as Bramanito, Michelangelo, and Bernini. The basilica is built over the traditional burial site of Saint Peter, one of Jesus' apostles and the first Pope, making it a significant pilgrimage site for Catholics. The interior features remarkable artworks, including Michelangelo's Piet\u00e0 and Bernini's Baldachin, and it can accommodate around 20,000 worshippers. St. Peter\u2019s Basilica is also the site of many important events, including papal conclaves and the canonization of saints, with the most recent canonization ceremony taking place on May 15, 2022.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000090",
+        "messages": [
+            {
+                "role": "user",
+                "content": "853afdab21b412d560875a518ea6eda963c51a80f4bc7acc5ee1dc5f7b934003"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Famous Marshmallow Experiment, conducted by psychologist Walter Mischel in the late 1960s at Stanford University, primarily focused on delayed gratification and self-control in children. In the study, 600 preschool-aged children were presented with a choice: they could eat one marshmallow immediately or wait 15 minutes to receive two marshmallows. Mischel observed that about one-third of the children were able to wait for the larger reward, while the rest succumbed to the temptation of the immediate treat. Follow-up studies revealed that those who demonstrated greater self-control tended to have better life outcomes, including higher SAT scores and better coping skills. The experiment has since become a foundational study in psychology, illustrating the importance of self-regulation and its long-term effects on personal development.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Famous Marshmallow Experiment, conducted by psychologist Walter Mischel in the late 1960s at Stanford University, primarily focused on the concept of delayed gratification and self-control in children. In the study, 600 preschool-aged children were presented with a choice: they could eat one marshmallow immediately or wait 15 minutes to receive three marshmallows. The experiment aimed to assess how the ability to delay gratification correlated with future success, as follow-up studies revealed that those who waited tended to have better life outcomes, including higher aerobic endurance and better social skills. Mischel's work highlighted the importance of self-regulation and its implications for psychological development. The experiment has since become a foundational study in understanding impulse control and has influenced various fields, including education and behavioral psychology.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000091",
+        "messages": [
+            {
+                "role": "user",
+                "content": "e29be9428c2296424d66af1d606fa2bdbfc06d10fceba36fd06c10820ed76a1a"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Flint Water Crisis, which began in April 2014, involved the unethical decision to switch Flint, Michigan's water supply from Lake Huron to the Flint River to save money, leading to widespread lead contamination. Key figures in this controversy included then-Governor Rick Snyder and former Flint Emergency Manager Darnell Earley, who prioritized cost-cutting over public health. Despite numerous complaints from residents about the water's color and taste, officials, including the Michigan Department of Health and Human Services, downplayed the risks, with Dr. Eden Wells stating in 2015 that the water was \"safe to drink.\" The crisis resulted in elevated blood lead levels in children, with over 9,000 children affected, and a public health emergency was declared in January 2016. The ethical implications of neglecting community health and failing to respond to residents' concerns have led to ongoing legal battles and calls for accountability, including charges against several state officials.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Flint Water Crisis, which began in April 2014, involved the unethical decision to switch Flint, Michigan's water supply from Lake Huron to the Flint River to save money, leading to widespread lead contamination. Key figures in this controversy included then-Governor Rick Snyder, who faced criticism for his administration's neglect of public health concerns, and former Flint Emergency Manager Darnell Early, who oversaw the switch and ignored warnings about water quality. Residents reported foul-smelling, discolored water, and elevated lead levels were confirmed in children, with over 9,000 children exposed to lead by 2015. The crisis highlighted systemic issues of environmental racism, as the predominantly African American population of Flint suffered disproportionately from the negligence of state officials. In March 2016, the Michigan Civil Rights Commission issued a report stating that the crisis was a result of systemic racism and a failure of government accountability, leading to ongoing legal battles and calls for justice.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000092",
+        "messages": [
+            {
+                "role": "user",
+                "content": "60b412696a53e870196ea1af1e48334172f505576c41a640ec20c7353f273859"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Peter L. Berger (1929-2017) was an influential Austrian-American sociologist known for his work in the sociology of religion and the social construction of reality. He co-authored the seminal book \"The Social Construction of Reality\" (1966) with Thomas Luckmann, which introduced the concept that reality is shaped through social interactions and shared understandings. Berger also wrote extensively on the role of religion in modern society, with notable works including \"The Sacred Canopy\" (1967), where he argued that religion provides a framework for meaning in a secular world. He served as a professor at institutions such as Boston University and the University of Notre Dame, and he was a founding director of the Institute for the Study of Economic Culture. Throughout his career, Berger received numerous accolades, including the prestigious Templeton Prize in 2001 for his contributions to the understanding of spirituality and religion.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Peter L. Berger (1929-2017) was an influential Austrian-American sociologist known for his work in the sociology of religion and the social construction of reality. He co-authored the seminal book \"The Social Construction of Reality\" (1966) with Thomas Luckmann, which introduced the concept that reality is shaped through social interactions and shared understandings. Berger also wrote extensively on the role of religion in modern society, notably in works like \"The Sacred Canopy\" (1967), where he argued that religion provides a framework for meaning in a secular world. He served as a professor at institutions such as Boston University and The New School for Humanist Research, influencing generations of sociologists. Throughout his career, Berger received numerous accolades, including the prestigious \"Lifetime Achievement Award\" from the American Sociological Association in May 2001.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000093",
+        "messages": [
+            {
+                "role": "user",
+                "content": "be79812184326d8f6acab298355f70110ad0b0d46678ffffe75685d13c50d34d"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Jim Hackett served as the President and CEO of Ford Motor Company from May 2017 until October 2020. He succeeded Mark Fields and was brought in to lead the company through a significant transformation, focusing on electric and autonomous vehicles. Under his leadership, Ford announced a $11 billion investment in electric vehicles and unveiled the Mustang Mach-E in November 2019, marking a pivotal shift towards electrification. Hackett also emphasized a new corporate strategy called \"Ford+\" to enhance the company's profitability and competitiveness in the evolving automotive landscape. He stepped down in October 2020, succeeded by Jim Farley, as Ford continued to navigate the challenges of the automotive industry.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Jim Hackett served as the President and CEO of Ford Motor Company from May 2017 until October 2020. He succeeded Mark Fieldman and was tasked with leading the company through a significant transformation towards electric and autonomous vehicles. Under his leadership, Ford announced a $11 billion investment in electric vehicles and unveiled the all-electric Ford Mustang Mach-E in November 2019. Hackett, who previously served as the CEO of Steelcase, emphasized a shift in Ford's culture towards innovation and agility, often collaborating with executives like Jim Farley, who later succeeded him as CTO. His tenure also included the strategic restructuring of Ford's global operations, particularly focusing on the North American market, where the company aimed to streamline costs and improve profitability.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000094",
+        "messages": [
+            {
+                "role": "user",
+                "content": "63d33d44a52548ce89f0fde617b2e10d6f1d9af1643aa1fbed6fe088431b5dae"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The ALS Association's \"Ice Bucket Challenge,\" which gained immense popularity in the summer of 2014, was a viral fundraising campaign aimed at raising awareness for amyotrophic lateral sclerosis (ALS). Participants would dump a bucket of ice water over their heads, film the act, and then challenge others to do the same within 24 hours, often donating to the ALS Association in the process. High-profile figures such as former President George W. Bush, celebrities like Justin Bieber and Taylor Swift, and athletes like LeBron James participated, significantly amplifying the campaign's reach. By the end of August 2014, the ALS Association reported raising over $115 million, a staggering increase from the $2.8 million raised during the same period in 2013. The campaign's success was further fueled by social media platforms like Facebook and Twitter, where videos went viral, creating a global phenomenon that engaged millions of participants across various countries.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The ALS Association's \"Ice Bucket Challenge,\" which gained traction in the summer of 2014, became a viral sensation as participants dumped buckets of ice water over their heads to raise awareness and funds for amyotrophic lateral sclerosis (ALS). The campaign was notably propelled by celebrities like Bill Gates, Oprah Winfrey, and Justin Bieber, who participated and challenged others, amplifying its reach across social media platforms. By the end of August 2014, the ALS Association reported raising over $115 million, a staggering increase from the $3.8 million raised during the same period in 2013. The challenge's viral nature was further fueled by the use of hashtags like #IceBucketChallenge and #NoMoreALS, which encouraged widespread sharing and participation. The campaign culminated in a significant boost in public awareness about ALS, with millions of videos shared globally, showcasing the power of social media in driving charitable initiatives.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000095",
+        "messages": [
+            {
+                "role": "user",
+                "content": "0dce3d12d940a001d71af9c6bbca7c7e16275cf7e2d9268371359f2a0bea405a"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "John Bolton is an American attorney, diplomat, and political commentator who served as the National Security Advisor under President Donald Trump from April 2018 to September 2019. Born on November 20, 1948, in Baltimore, Maryland, he is known for his hawkish foreign policy views, particularly regarding Iran and North Korea. Bolton played a significant role in the 2003 invasion of Iraq, advocating for military intervention and the removal of Saddam Hussein, and he has been a prominent critic of the United Nations, calling for U.S. withdrawal from various international agreements. He has also held positions such as U.S. Ambassador to the United Nations from 2005 to 2006 and Assistant Secretary of State for International Organization Affairs. In 2020, Bolton published a memoir titled \"The Room Where It Happened,\" which detailed his experiences in the Trump administration and criticized the president's foreign policy decisions.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "John Bolton is an American attorney, diplomat, and political commentator who served as the National Security Advisor under President Donald Trump from April 2018 to September 2019. Born on November 20, 1948, in Baltimore, Maryland, he is known for his hawkish foreign policy views, particularly regarding Iran and North Korea. Bolton played a significant role in the U.S. withdrawal from the Iran nuclear deal in May 2018 and was a key advocate for military intervention in Venezuela. He previously held positions as the U.S. Ambassador to the United Nations from 2005 to 2007 and as Under Secretary of State for Arms Control and International Security from 2001 to 2005 under President George W. Bush. Bolton has authored several books, including \"The Room Where It All Happened,\" published in 2020, which provides an insider's account of his time in the Trump administration.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000096",
+        "messages": [
+            {
+                "role": "user",
+                "content": "0dfd346314522bb254e4d875fb72f07eff3c495012c88878ccf7e61637e05050"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The African Export\u2013Import Bank (Afreximbank) was established in 1993 and is headquartered in Cairo, Egypt, with the aim of promoting and financing intra-African trade. As of 2023, the bank has over 50 member countries and has facilitated trade transactions worth billions of dollars across the continent. Dr. Benedict Oramah has served as the President of Afreximbank since 2015, leading initiatives to enhance trade finance and support African businesses. In 2021, the bank launched the African Trade Gateway platform to streamline trade processes and improve access to financing for SMEs. Additionally, Afreximbank has been instrumental in financing projects like the African Continental Free Trade Area (AfCFTA), which aims to boost intra-African trade by reducing tariffs and barriers.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The African Export\u2013Import Bank (Afreximbank) was established in 1993 and is headquartered in Cairo, Egypt, with the aim of promoting and financing intra-African trade. As of 2023, the bank has over 50 member countries and has facilitated trade transactions worth billions of dollars across the continent. Dr. Benedict Oramah has served as the President of Afreximbank since 2015, leading initiatives to enhance social mobility and economic development in Africa. In 2021, the bank launched the African Trade Access platform to streamline trade processes and improve access to financing for businesses. Notably, in 2022, Afreximbank announced a $1 billion facility to support African countries in their post-COVID-19 recovery efforts.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000097",
+        "messages": [
+            {
+                "role": "user",
+                "content": "58596d19904f707674c21323c5ffabe417f0a3fbe069bd2e410cbf8c8950896b"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "IKEA's \"Where Life Happens\" advertising campaign, launched in 2017, aimed to connect with consumers by showcasing real-life moments in everyday settings, emphasizing the importance of home in people's lives. The campaign featured relatable scenarios, such as families gathering for meals, children playing, and couples enjoying quiet moments, highlighting how IKEA products facilitate these experiences. For instance, the ads included vignettes of diverse families in various locations, from urban apartments to suburban homes, illustrating the brand's versatility and appeal across different demographics. The campaign also utilized social media platforms, encouraging customers to share their own \"life happens\" moments using the hashtag #WhereLifeHappens, fostering community engagement. Overall, the strategy focused on emotional storytelling to reinforce IKEA's position as a brand that understands and enhances the everyday lives of its customers.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "IKEA's \"Where Life Happens\" advertising campaign, launched in 2018, focuses on the everyday moments that occur in homes, emphasizing the importance of creating functional and inviting living spaces. The campaign features relatable scenarios, such as family gatherings, laundry folding, and cozy evenings, showcasing how IKEA products can enhance these experiences. For instance, the campaign includes a series of short films that depict diverse families and individuals navigating life's challenges, highlighting the emotional connection people have with their homes. Additionally, IKEA utilized social media platforms to engage audiences, encouraging them to share their own stories and experiences using the hashtag #WhereLifeReallyHappens. This strategy not only humanizes the brand but also reinforces IKEA's commitment to understanding and improving the lives of its customers through thoughtful design.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000098",
+        "messages": [
+            {
+                "role": "user",
+                "content": "fed9115188a3bc0b242de528892518612c187e1124079a085927fff1beb60ffc"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "The Palace of Versailles, located about 12 miles southwest of Paris, was originally a hunting lodge for King Louis XIII before being transformed into a grand palace by his son, King Louis XIV, starting in 1661. The palace is renowned for its opulent architecture, including the Hall of Mirrors, which features 357 mirrors and reflects the gardens designed by landscape architect Andr\u00e9 Le N\u00f4tre. Versailles served as the royal residence until the French Revolution, when King Louis XVI and Queen Marie Antoinette were forced to leave in 1789. The Treaty of Versailles, which officially ended World War I, was signed in the Hall of Mirrors on June 28, 1919, marking a significant historical event. Today, the palace is a UNESCO World Heritage site, attracting millions of visitors annually who come to admire its art, gardens, and historical significance.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "The Palace of Versailles, located approximately 12 miles west of Paris, was originally a hunting lodge for King Louis XIII before being transformed into a grand palace by his son, King Louis XIV, starting in 1661. The palace is renowned for its opulent architecture and extensive gardens, which cover about 800 hectares and feature the famous Hall of Mirrors, where the Treaty of Versailles was signed on July 28, 1919, officially ending World War I. Versailles served as the royal residence of the French monarchy until the French Revolution, when King Louis XVI and Marie Antoinette were forced to leave in 1789. The palace is a UNESCO World Heritage site and attracts millions of visitors annually, showcasing its historical significance and artistic treasures, including works by artists like Fran\u00e7ois Sel\u00e1 and Andr\u00e9 Le N\u00f4tre. Notably, the Grand Trianon and Petit Trianon, smaller palaces within the grounds, were favored retreats for the royal family, particularly Marie Antoinette, who used the Petit Trianon as a private escape from court life.",
+                "metadata": {}
+            }
+        }
+    },
+    {
+        "prompt_id": "longfact-pairwise-20240813-0000099",
+        "messages": [
+            {
+                "role": "user",
+                "content": "62df0968b75fa6dcc5aa967c43c62e75ec27dd3d3d236388793574d89b035f54"
+            }
+        ],
+        "enrichments": {
+            "task_type": "Open Q&A",
+            "topic": "other_v1.1",
+            "task_type_prob": 1,
+            "topic_prob": 1,
+            "meta": {
+                "longfact-preferred": "text_1"
+            }
+        },
+        "responses": {
+            "text_1": {
+                "response": "Google's \"Year in Search\" marketing strategy leverages data analytics to highlight the most popular search trends and topics of the year, creating a compelling narrative around collective human curiosity and behavior. For instance, in 2020, the campaign emphasized themes like the COVID-19 pandemic, with searches for \"how to make hand sanitizer\" surging by 4,000%, reflecting the global shift in priorities. The campaign often features a video recap, showcasing significant events such as the Black Lives Matter protests and the Tokyo Olympics, which were postponed to 2021. By using emotional storytelling and relatable content, Google connects with audiences on a personal level, fostering brand loyalty and engagement. The annual release, typically in December, serves as both a reflection of societal trends and a powerful marketing tool that reinforces Google's role as an essential information resource.",
+                "metadata": {}
+            },
+            "text_2": {
+                "response": "Google's \"Year in Search\" marketing strategy leverages data analytics to highlight the most popular search trends and topics of the year, creating a compelling narrative around user interests and global events. For instance, in 2020, the campaign focused on the COVID-19 pandemic, showcasing searches related to health, safety, and remote work, which resonated with a global audience facing unprecedented challenges. The 2021 edition featured notable events like the Rio Olympics and the resurgence of interest in mental health, emphasizing the human experience during tumultuous times. By utilizing visually engaging videos, songs and infographics, Google effectively captures attention and encourages sharing across social media platforms, enhancing brand visibility. This strategy not only reinforces Google's role as an information hub but also fosters a sense of community by connecting users through shared experiences and collective curiosity.",
+                "metadata": {}
+            }
+        }
+    }
+]

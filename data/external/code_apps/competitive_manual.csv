@@ -1,0 +1,1754 @@
+index,text_a,text_b,preferred_text
+3689,"import sys
+reader = (s.rstrip() for s in sys.stdin)
+input = reader.__next__
+
+n,k = list(map(int, input().split()))
+a = list(map(int, input()))
+b = a[:k]
+c = [b[i%k] for i in range(n)]
+if tuple(a)>tuple(c):
+    d = int("""".join(map(str, b)))
+    d -= 1
+    b = list(map(int, str(d)))
+    c = [b[i%k] for i in range(n)]
+print(len(c))
+print("""".join(map(str, c)))
+
+","import sys
+reader = (s.rstrip() for s in sys.stdin)
+input = reader.__next__
+
+n,k = list(map(int, input().split()))
+a = list(map(int, input()))
+b = a[:k]
+c = [b[i%k] for i in range(n)]
+if tuple(a)>tuple(c):
+    d = int("""".join(map(str, b)))
+    d += 1
+    b = list(map(int, str(d)))
+    c = [b[i%k] for i in range(n)]
+print(len(c))
+print("""".join(map(str, c)))
+
+",text_b
+3690,"used = [0] * 121
+h, m, s, t1, t2 = map(int, input().split())
+h %= 24
+t1 %= 12
+t2 %= 12
+t1 *= 5
+t2 *= 5
+used[h * 5] = 1
+used[h * 5 + 60] = 1
+used[m] = 1
+used[m + 60] = 1
+used[s] = 1
+used[s + 60] = 1
+if t1 > t2:
+    t1, t2 = t2, t1
+t3 = t1 + 60
+if sum(used[t1:t2]) == 0 or sum(used[t2:t3]) == 0:
+    print(""YES"")
+else:
+    print(""NO"")","used = [0] * 121
+h, m, s, t1, t2 = map(int, input().split())
+h %= 12
+t1 %= 12
+t2 %= 12
+t1 *= 5
+t2 *= 5
+used[h * 5] = 1
+used[h * 5 + 60] = 1
+used[m] = 1
+used[m + 60] = 1
+used[s] = 1
+used[s + 60] = 1
+if t1 > t2:
+    t1, t2 = t2, t1
+t3 = t1 + 60
+if sum(used[t1:t2]) == 0 or sum(used[t2:t3]) == 0:
+    print(""YES"")
+else:
+    print(""NO"")",text_b
+3691,"x0, y0, A, C, B, D = list(map(int, input().split()))
+
+pts = [[x0, y0]]
+for i in range(100):
+	nx, ny = [pts[-1][0] * A + B, pts[-1][1] * C + D]
+	pts.append([nx, ny])
+	if max(nx, ny) > 10000000000000000 * 10000000000000000: break
+
+
+x, y, t = list(map(int, input().split()))
+# print (pts[0])
+# print (pts[1])
+# print (pts[2])
+# print (pts[3])
+_max = 0
+for i in range(len(pts)):
+	for j in range(len(pts)):
+		if abs(pts[i][0] - pts[j][0]) + abs(pts[i][1] - pts[j][1]) + abs(x - pts[i][0]) + abs(y - pts[i][1]) > t:
+			_max = max(_max, abs(i - j) + 1)
+print(_max)
+","x0, y0, A, C, B, D = list(map(int, input().split()))
+
+pts = [[x0, y0]]
+for i in range(100):
+	nx, ny = [pts[-1][0] * A + B, pts[-1][1] * C + D]
+	pts.append([nx, ny])
+	if max(nx, ny) > 10000000000000000 * 10000000000000000: break
+
+
+x, y, t = list(map(int, input().split()))
+# print (pts[0])
+# print (pts[1])
+# print (pts[2])
+# print (pts[3])
+_max = 0
+for i in range(len(pts)):
+	for j in range(len(pts)):
+		if abs(pts[i][0] - pts[j][0]) + abs(pts[i][1] - pts[j][1]) + abs(x - pts[i][0]) + abs(y - pts[i][1]) <= t:
+			_max = max(_max, abs(i - j) + 1)
+print(_max)
+",text_b
+3693,"a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+x1 = min(a[0], a[2], a[4], a[6])
+x2 = max(a[0], a[2], a[4], a[6])
+y1 = min(a[1], a[3], a[5], a[7])
+y2 = max(a[1], a[3], a[5], a[7])
+d1 = min(b[0] - b[1], b[2] - b[3], b[4] - b[5], b[6] - b[7])
+d2 = max(b[0] - b[1], b[2] - b[3], b[4] - b[5], b[6] - b[7])
+s1 = min(b[0] + b[1], b[2] + b[3], b[4] + b[5], b[6] + b[7])
+s2 = max(b[0] + b[1], b[2] + b[3], b[4] + b[5], b[6] + b[7])
+for x in range(-100, 101):
+    for y in range(-100, 101):
+        d = x - y
+        s = x + y
+        if x1 <= x <= x2 and y1 <= y <= y2 and s1 <= s <= s2 and d1 > d:
+            print(""YES"")
+            return
+print(""NO"")","a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+x1 = min(a[0], a[2], a[4], a[6])
+x2 = max(a[0], a[2], a[4], a[6])
+y1 = min(a[1], a[3], a[5], a[7])
+y2 = max(a[1], a[3], a[5], a[7])
+d1 = min(b[0] - b[1], b[2] - b[3], b[4] - b[5], b[6] - b[7])
+d2 = max(b[0] - b[1], b[2] - b[3], b[4] - b[5], b[6] - b[7])
+s1 = min(b[0] + b[1], b[2] + b[3], b[4] + b[5], b[6] + b[7])
+s2 = max(b[0] + b[1], b[2] + b[3], b[4] + b[5], b[6] + b[7])
+for x in range(-100, 101):
+    for y in range(-100, 101):
+        d = x - y
+        s = x + y
+        if x1 <= x <= x2 and y1 <= y <= y2 and s1 <= s <= s2 and d1 <= d <= d2:
+            print(""YES"")
+            return
+print(""NO"")",text_b
+3694,"n = int(input())
+a = list(map(int,input().split()))
+
+dupes = 0
+dupeVal = -1
+d = set()
+for el in a:
+    if el in d:
+        dupes += 1
+        dupeVal = el
+    else:
+        d.add(el)
+
+inPlay = True
+if dupes > 1:
+    print('cslnb')
+    inPlay = False
+elif dupes == 1:
+    if dupeVal == 0 or (dupeVal - 1) in d:
+        print('cslnb')
+        inPlay = False
+
+if inPlay:
+    finalSum = (n*n)//2
+    Sum = sum(a)
+    if (Sum - finalSum) % 2 == 0:
+        print('cslnb')
+    else:
+        print('sjfnb')
+    
+","n = int(input())
+a = list(map(int,input().split()))
+
+dupes = 0
+dupeVal = -1
+d = set()
+for el in a:
+    if el in d:
+        dupes += 1
+        dupeVal = el
+    else:
+        d.add(el)
+
+inPlay = True
+if dupes > 1:
+    print('cslnb')
+    inPlay = False
+elif dupes == 1:
+    if dupeVal == 0 or (dupeVal - 1) in d:
+        print('cslnb')
+        inPlay = False
+
+if inPlay:
+    finalSum = (n*(n-1))//2
+    Sum = sum(a)
+    if (Sum - finalSum) % 2 == 0:
+        print('cslnb')
+    else:
+        print('sjfnb')
+    
+",text_b
+3695,"n, t = map(int,input().split())
+wait = list(map(int,input().split()))
+seg = []
+for i in range(n):
+    # to get the food in wait[i], wait __ seconds before running
+    m = max(0, wait[i]-i-1)
+    M = t-i-2
+    if m > M: continue
+    seg.append((m, -1))
+    seg.append((M, 1))
+seg.sort()
+
+ans = 0
+cur = 0
+for t, q in seg:
+    cur+= q
+    ans = max(ans, cur)
+print(ans)","n, t = map(int,input().split())
+wait = list(map(int,input().split()))
+seg = []
+for i in range(n):
+    # to get the food in wait[i], wait __ seconds before running
+    m = max(0, wait[i]-i-1)
+    M = t-i-2
+    if m > M: continue
+    seg.append((m, -1))
+    seg.append((M, 1))
+seg.sort()
+
+ans = 0
+cur = 0
+for t, q in seg:
+    cur-= q
+    ans = max(ans, cur)
+print(ans)",text_b
+3696,"n = int(input())
+
+a, b = [1], [0]
+
+for i in range(n):
+	new_b = a[:]
+	a1 = a[:]
+	a2 = a[:]
+	a1.append(0)
+	a2.append(0)
+	for i in range(-1, -len(b) - 1, -1):
+		a1[i] += b[i]
+	for i in range(-1, -len(b) - 1, -1):
+		a2[i] -= b[i]
+	if max([abs(kek) for kek in a1]) < 2:
+		a = a1
+	elif max([abs(kek) for kek in a2]) < 2:
+		a = a2
+	else:
+		print(""oops"")
+		return
+	b = new_b
+print(len(a))
+print(*(a[::-1]))
+print(len(b))
+print(*(b[::-1]))","n = int(input())
+
+a, b = [1], [0]
+
+for i in range(n):
+	new_b = a[:]
+	a1 = a[:]
+	a2 = a[:]
+	a1.append(0)
+	a2.append(0)
+	for i in range(-1, -len(b) - 1, -1):
+		a1[i] += b[i]
+	for i in range(-1, -len(b) - 1, -1):
+		a2[i] -= b[i]
+	if max([abs(kek) for kek in a1]) < 2:
+		a = a1
+	elif max([abs(kek) for kek in a2]) < 2:
+		a = a2
+	else:
+		print(""oops"")
+		return
+	b = new_b
+print(len(a) - 1)
+print(*(a[::-1]))
+print(len(b) - 1)
+print(*(b[::-1]))",text_b
+3697,"class State:
+  __slots__ = ['candidate', 'votes', 'last_vote']
+
+  def __init__(self, cand, votes, last):
+    self.candidate = cand
+    self.votes = votes
+    self.last_vote = last
+
+  def beats(self, other, extra):
+    return self.votes + extra > other.votes
+
+def main():
+  candidates, seats, people, voted = map(int, input().split())
+  votes = [0 for i in range(candidates)]
+  last_vote = [0 for i in range(candidates)]
+
+  if candidates == 1:
+    print(1)
+    return
+
+  v = list(map(int, input().split()))
+  for t in range(voted):
+    cand = v[t] - 1
+    votes[cand] += 1
+    last_vote[cand] = t
+
+  states = [State(i, votes[i], last_vote[i]) for i in range(candidates)]
+  states = sorted(states, key = lambda x : (x.votes, -x.last_vote))
+  res = [0 for i in range(candidates)]
+
+  for i in range(candidates):
+    if i < candidates - seats:
+      low = candidates - seats
+      if states[i].beats(states[low], people - voted):
+        res[states[i].candidate] = 3
+      else:
+        res[states[i].candidate] = 4
+    else:
+      extra = people - voted
+      other = i - 1
+      place = i
+
+      if extra == 0 and states[i].votes == 0:
+        res[states[i].candidate] = 3
+        continue
+
+      while other >= 0 and extra > 0:
+        needed = states[i].votes - states[other].votes + 1
+        if needed <= extra:
+          extra -= needed;
+          place -= 1
+          other -= 1
+        else:
+          break
+
+      res[states[i].candidate] = (1 if place + seats >= candidates and states[i].votes > 0 else 2)
+
+  for i in res:
+    print(i, end = ' ')
+
+main()
+","class State:
+  __slots__ = ['candidate', 'votes', 'last_vote']
+
+  def __init__(self, cand, votes, last):
+    self.candidate = cand
+    self.votes = votes
+    self.last_vote = last
+
+  def beats(self, other, extra):
+    return self.votes + extra > other.votes
+
+def main():
+  candidates, seats, people, voted = map(int, input().split())
+  votes = [0 for i in range(candidates)]
+  last_vote = [0 for i in range(candidates)]
+
+  if candidates == 1:
+    print(1)
+    return
+
+  v = list(map(int, input().split()))
+  for t in range(voted):
+    cand = v[t] - 1
+    votes[cand] += 1
+    last_vote[cand] = t
+
+  states = [State(i, votes[i], last_vote[i]) for i in range(candidates)]
+  states = sorted(states, key = lambda x : (x.votes, -x.last_vote))
+  res = [0 for i in range(candidates)]
+
+  for i in range(candidates):
+    if i < candidates - seats:
+      low = candidates - seats
+      if states[i].beats(states[low], people - voted):
+        res[states[i].candidate] = 2
+      else:
+        res[states[i].candidate] = 3
+    else:
+      extra = people - voted
+      other = i - 1
+      place = i
+
+      if extra == 0 and states[i].votes == 0:
+        res[states[i].candidate] = 3
+        continue
+
+      while other >= 0 and extra > 0:
+        needed = states[i].votes - states[other].votes + 1
+        if needed <= extra:
+          extra -= needed;
+          place -= 1
+          other -= 1
+        else:
+          break
+
+      res[states[i].candidate] = (1 if place + seats >= candidates and states[i].votes > 0 else 2)
+
+  for i in res:
+    print(i, end = ' ')
+
+main()
+",text_b
+3698,"mas = [[] for i in range(1001)]
+mas[0].append(1)
+mas[0].append(1)
+for i in range(1, 1000):
+    mas[i].append(1)
+    for j in range(1, i):
+        mas[i].append((mas[i - 1][j] + mas[i - 1][j - 1]) % (10 ** 9 + 7))
+    mas[i].append(1)
+
+
+def c(k, n):
+    if k > n:
+        return 0
+    if k < 0:
+        return 0
+    nonlocal mas
+    return mas[n][k]
+
+
+m = [0] * 1000
+for i in range(1, 1000):
+    nw = i
+    t = 0
+    while nw != 1:
+        nw = sum([int(j) for j in str(bin(nw)[2:])])
+        t += 1
+    m[i] = t
+m[1] = 0
+n = input()
+k = int(input())
+if k >= 6:
+    print(0)
+    return
+if k == 0:
+    print(1)
+    return
+if k == 1:
+    print(len(n) - 1)
+    return
+ans = 0
+for kkk in range(1, 100):
+    if m[kkk] == k - 1:
+        nw = kkk
+        t = 0
+        for i in range(len(n)):
+            if n[i] == '1':
+                ans += c(nw - t, len(n) - 1 - i)
+                ans %= 10 ** 9 + 7
+                t += 1
+        if sum([int(j) for j in n]) == kkk:
+            ans += 1
+            ans %= 10 ** 9 + 7
+
+
+print(ans)
+","mas = [[] for i in range(1001)]
+mas[0].append(1)
+mas[0].append(1)
+for i in range(1, 1000):
+    mas[i].append(1)
+    for j in range(1, i):
+        mas[i].append((mas[i - 1][j] + mas[i - 1][j - 1]) % (10 ** 9 + 7))
+    mas[i].append(1)
+
+
+def c(k, n):
+    if k > n:
+        return 0
+    if k < 0:
+        return 0
+    nonlocal mas
+    return mas[n][k]
+
+
+m = [0] * 1000
+for i in range(1, 1000):
+    nw = i
+    t = 0
+    while nw != 1:
+        nw = sum([int(j) for j in str(bin(nw)[2:])])
+        t += 1
+    m[i] = t
+m[1] = 0
+n = input()
+k = int(input())
+if k >= 6:
+    print(0)
+    return
+if k == 0:
+    print(1)
+    return
+if k == 1:
+    print(len(n) - 1)
+    return
+ans = 0
+for kkk in range(1, 1000):
+    if m[kkk] == k - 1:
+        nw = kkk
+        t = 0
+        for i in range(len(n)):
+            if n[i] == '1':
+                ans += c(nw - t, len(n) - 1 - i)
+                ans %= 10 ** 9 + 7
+                t += 1
+        if sum([int(j) for j in n]) == kkk:
+            ans += 1
+            ans %= 10 ** 9 + 7
+
+
+print(ans)
+",text_b
+3699,"from math import *
+
+ax, ay, bx, by, cx, cy = [int(t) for t in input().split()]
+n = int(input())
+dist = 0
+maxv = [[-inf, -inf], [-inf, -inf]]
+index = [[0,0], [0,0]]
+
+def update(d, idx, p):
+    nonlocal maxv, index
+    if d > maxv[p][0]:
+        maxv[p][1] = maxv[p][0]
+        index[p][1] = index[p][0]
+        maxv[p][0] = d
+        index[p][0] = idx
+    elif d > maxv[p][1]:
+        maxv[p][1] = d
+        index[p][1] = idx
+
+for i in range(n):
+    x, y = [int(t) for t in input().split()]
+    bottle_recycle = sqrt((cx - x) ** 2 + (cy - y) ** 2)
+    dist += bottle_recycle * 2
+    dista = bottle_recycle - sqrt((ax - x) ** 2 + (ay - y) ** 2)
+    distb = bottle_recycle - sqrt((bx - x) ** 2 + (by - y) ** 2)
+    update(dista, i, 0)
+    update(distb, i, 1)
+
+ans = dist - maxv[0][0]
+ans = min(ans, dist - maxv[1][0])
+if(index[0][0] == index[1][0]):
+    ans = min(ans, dist - maxv[0][0] - maxv[1][0])
+elif(n > 1):
+    ans = min(ans, dist - maxv[0][1] - maxv[1][0], dist - maxv[0][0] - maxv[1][1])
+print(ans)","from math import *
+
+ax, ay, bx, by, cx, cy = [int(t) for t in input().split()]
+n = int(input())
+dist = 0
+maxv = [[-inf, -inf], [-inf, -inf]]
+index = [[0,0], [0,0]]
+
+def update(d, idx, p):
+    nonlocal maxv, index
+    if d > maxv[p][0]:
+        maxv[p][1] = maxv[p][0]
+        index[p][1] = index[p][0]
+        maxv[p][0] = d
+        index[p][0] = idx
+    elif d > maxv[p][1]:
+        maxv[p][1] = d
+        index[p][1] = idx
+
+for i in range(n):
+    x, y = [int(t) for t in input().split()]
+    bottle_recycle = sqrt((cx - x) ** 2 + (cy - y) ** 2)
+    dist += bottle_recycle * 2
+    dista = bottle_recycle - sqrt((ax - x) ** 2 + (ay - y) ** 2)
+    distb = bottle_recycle - sqrt((bx - x) ** 2 + (by - y) ** 2)
+    update(dista, i, 0)
+    update(distb, i, 1)
+
+ans = dist - maxv[0][0]
+ans = min(ans, dist - maxv[1][0])
+if(index[0][0] != index[1][0]):
+    ans = min(ans, dist - maxv[0][0] - maxv[1][0])
+elif(n > 1):
+    ans = min(ans, dist - maxv[0][1] - maxv[1][0], dist - maxv[0][0] - maxv[1][1])
+print(ans)",text_b
+3700,"#!/usr/bin/env python3
+n, k = list(map(int, input().split()))
+ans = max(0, min(n, k - 2) - k // 2)
+print(ans)
+","#!/usr/bin/env python3
+n, k = list(map(int, input().split()))
+ans = max(0, min(n, k - 1) - k // 2)
+print(ans)
+",text_b
+3701,"n, x, y = map(int, input().split())
+a = input()
+cnt = 0
+prev = '1'
+for ai in a:
+  if prev == '1' and ai == '0': cnt += 1
+  prev = ai
+if cnt == 0:
+  print(0)
+else:
+  print(min(x,y)*(cnt-1)+y*2)","n, x, y = map(int, input().split())
+a = input()
+cnt = 0
+prev = '1'
+for ai in a:
+  if prev == '1' and ai == '0': cnt += 1
+  prev = ai
+if cnt == 0:
+  print(0)
+else:
+  print(min(x,y)*(cnt-1)+y)",text_b
+3702,"n,a,d=map(int,input().split())
+print(368131125*a%10**9*13*10**9+1,368131125*d%10**9*13*10**9)","n,a,d=map(int,input().split())
+print(368131125*a%10**9*12*10**9+1,368131125*d%10**9*12*10**9)",text_b
+3703,"from math import sqrt, ceil
+
+MAX_N = 10 ** 6 * 2 
+
+
+prime = []
+isPrime = [True for i in range(MAX_N)]
+
+for i in range(2, MAX_N):
+    if isPrime[i]:
+        prime.append(i)
+        for j in range(i * i, MAX_N, i):
+            isPrime[j] = False
+
+
+def factor(a):
+    divs = []
+    for i in prime:
+        cnt = 0
+        while a % i == 0:
+            a //= i
+            cnt += 1
+
+        if cnt:
+            divs.append((i, cnt,))
+
+    if a > 1:
+        divs.append((a, 1,))
+
+    return divs
+
+
+def f(n):
+    ans = 1
+    for div in factor(n):
+        ans *= div[0] ** (div[1] - 1) * (div[0] - 1)
+
+    return ans
+
+def g(n):
+    return n
+
+def F(n, k):
+    cur = n
+    for i in range(1, k + 1):
+        #print(i)
+        #print(factor(cur))
+        if i == 1:
+            cur = f(g(cur))
+        elif i % 2 - 1 == 0:
+            cur = g(cur)
+        else:
+            cur = f(cur)
+
+        #print(i, cur)
+
+        if cur == 1:
+            break
+
+    return cur % (10 ** 9 + 7)
+
+n, k = [int(i) for i in input().split(' ')]
+#print(factor(n - 1))
+print(F(n, k))
+","from math import sqrt, ceil
+
+MAX_N = 10 ** 6 * 2 
+
+
+prime = []
+isPrime = [True for i in range(MAX_N)]
+
+for i in range(2, MAX_N):
+    if isPrime[i]:
+        prime.append(i)
+        for j in range(i * i, MAX_N, i):
+            isPrime[j] = False
+
+
+def factor(a):
+    divs = []
+    for i in prime:
+        cnt = 0
+        while a % i == 0:
+            a //= i
+            cnt += 1
+
+        if cnt:
+            divs.append((i, cnt,))
+
+    if a > 1:
+        divs.append((a, 1,))
+
+    return divs
+
+
+def f(n):
+    ans = 1
+    for div in factor(n):
+        ans *= div[0] ** (div[1] - 1) * (div[0] - 1)
+
+    return ans
+
+def g(n):
+    return n
+
+def F(n, k):
+    cur = n
+    for i in range(1, k + 1):
+        #print(i)
+        #print(factor(cur))
+        if i == 1:
+            cur = f(g(cur))
+        elif i % 2 == 0:
+            cur = g(cur)
+        else:
+            cur = f(cur)
+
+        #print(i, cur)
+
+        if cur == 1:
+            break
+
+    return cur % (10 ** 9 + 7)
+
+n, k = [int(i) for i in input().split(' ')]
+#print(factor(n - 1))
+print(F(n, k))
+",text_b
+3704,"#!/usr/bin/env python3
+# Copied solution
+
+import collections
+import sys
+import traceback
+
+class Input(object):
+    def __init__(self):
+        self.fh = sys.stdin
+
+    def next_line(self):
+        while True:
+            line = sys.stdin.readline()
+            if line == '\n':
+                continue
+            return line
+
+
+    def next_line_ints(self):
+        line = self.next_line()
+        return [int(x) for x in line.split()]
+
+    def next_line_strs(self):
+        line = self.next_line()
+        return line.split()
+
+class Node(object):
+    def __init__(self, color, subtree_color):
+        self.left = self.right = None
+        self.color = color
+        self.subtree_color = subtree_color
+
+def list_to_number(list):
+    """"""Return (color, bits, number).""""""
+    color = 1 if list[0] == '-' else 2
+    values = list[1:].split('/')
+    bits = 32
+    if len(values) == 2:
+        bits = int(values[1])
+    nums = values[0].split('.')
+    number = 0
+    for num in nums:
+        number = number * 256 + int(num)
+    return (color, bits, number)
+
+def add_list_to_tree(tree, list):
+    color, bits, number = list_to_number(list)
+    shift = 31
+    for _ in range(bits):
+        tree.subtree_color |= color
+        value = (number >> shift) & 1
+        if value == 0:
+            if not tree.left:
+                tree.left = Node(0, 0)
+            tree = tree.left
+        else:
+            if not tree.right:
+                tree.right = Node(0, 0)
+            tree = tree.right
+        shift -= 1
+    tree.subtree_color |= color
+    tree.color |= color
+
+def check_tree(tree):
+    if not tree:
+        return True
+    if tree.color == 3 or (tree.color and (tree.subtree_color & ~tree.color)):
+        return False
+    return check_tree(tree.left) and check_tree(tree.right)
+
+def number_to_list(number, bits):
+    number <<= (16 - bits)
+    values = []
+    for _ in range(4):
+        #print('number = {}'.format(number))
+        values.append(str(number % 256))
+        number //= 256
+    values = values[::-1]
+    return '.'.join(values) + '/' + str(bits)
+
+def get_optimized(tree, optimized, number, bits):
+    if not tree or (tree.subtree_color & 1) == 0:
+        return
+    if tree.subtree_color == 1:
+        list = number_to_list(number, bits)
+        #print('number_to_list({}, {}) = {}'.format(number, bits, list))
+        optimized.append(list)
+        return
+    get_optimized(tree.left, optimized, number * 2, bits + 1)
+    get_optimized(tree.right, optimized, number * 2 + 1, bits + 1)
+
+
+def get_optimized_lists(lists):
+    tree = Node(0, 0)
+    for list in lists:
+        add_list_to_tree(tree, list)
+    if not check_tree(tree):
+        return None
+    optimized = []
+    get_optimized(tree, optimized, 0, 0)
+    return optimized
+
+
+def main():
+    input = Input()
+    while True:
+        try:
+            nums = input.next_line_ints()
+            if not nums:
+                break
+            n, = nums
+            if n == -1:
+                break
+            lists = []
+            for _ in range(n):
+                lists.append(input.next_line_strs()[0])
+        except:
+            print('read input failed')
+        try:
+            optimized = get_optimized_lists(lists)
+            if optimized is None:
+                print(""-1"")
+            else:
+                print(""{}"".format(len(optimized)))
+                for l in optimized:
+                    print(""{}"".format(l))
+        except:
+            traceback.print_exc(file=sys.stdout)
+            print('get_min_dist failed')
+
+main()","#!/usr/bin/env python3
+# Copied solution
+
+import collections
+import sys
+import traceback
+
+class Input(object):
+    def __init__(self):
+        self.fh = sys.stdin
+
+    def next_line(self):
+        while True:
+            line = sys.stdin.readline()
+            if line == '\n':
+                continue
+            return line
+
+
+    def next_line_ints(self):
+        line = self.next_line()
+        return [int(x) for x in line.split()]
+
+    def next_line_strs(self):
+        line = self.next_line()
+        return line.split()
+
+class Node(object):
+    def __init__(self, color, subtree_color):
+        self.left = self.right = None
+        self.color = color
+        self.subtree_color = subtree_color
+
+def list_to_number(list):
+    """"""Return (color, bits, number).""""""
+    color = 1 if list[0] == '-' else 2
+    values = list[1:].split('/')
+    bits = 32
+    if len(values) == 2:
+        bits = int(values[1])
+    nums = values[0].split('.')
+    number = 0
+    for num in nums:
+        number = number * 256 + int(num)
+    return (color, bits, number)
+
+def add_list_to_tree(tree, list):
+    color, bits, number = list_to_number(list)
+    shift = 31
+    for _ in range(bits):
+        tree.subtree_color |= color
+        value = (number >> shift) & 1
+        if value == 0:
+            if not tree.left:
+                tree.left = Node(0, 0)
+            tree = tree.left
+        else:
+            if not tree.right:
+                tree.right = Node(0, 0)
+            tree = tree.right
+        shift -= 1
+    tree.subtree_color |= color
+    tree.color |= color
+
+def check_tree(tree):
+    if not tree:
+        return True
+    if tree.color == 3 or (tree.color and (tree.subtree_color & ~tree.color)):
+        return False
+    return check_tree(tree.left) and check_tree(tree.right)
+
+def number_to_list(number, bits):
+    number <<= (32 - bits)
+    values = []
+    for _ in range(4):
+        #print('number = {}'.format(number))
+        values.append(str(number % 256))
+        number //= 256
+    values = values[::-1]
+    return '.'.join(values) + '/' + str(bits)
+
+def get_optimized(tree, optimized, number, bits):
+    if not tree or (tree.subtree_color & 1) == 0:
+        return
+    if tree.subtree_color == 1:
+        list = number_to_list(number, bits)
+        #print('number_to_list({}, {}) = {}'.format(number, bits, list))
+        optimized.append(list)
+        return
+    get_optimized(tree.left, optimized, number * 2, bits + 1)
+    get_optimized(tree.right, optimized, number * 2 + 1, bits + 1)
+
+
+def get_optimized_lists(lists):
+    tree = Node(0, 0)
+    for list in lists:
+        add_list_to_tree(tree, list)
+    if not check_tree(tree):
+        return None
+    optimized = []
+    get_optimized(tree, optimized, 0, 0)
+    return optimized
+
+
+def main():
+    input = Input()
+    while True:
+        try:
+            nums = input.next_line_ints()
+            if not nums:
+                break
+            n, = nums
+            if n == -1:
+                break
+            lists = []
+            for _ in range(n):
+                lists.append(input.next_line_strs()[0])
+        except:
+            print('read input failed')
+        try:
+            optimized = get_optimized_lists(lists)
+            if optimized is None:
+                print(""-1"")
+            else:
+                print(""{}"".format(len(optimized)))
+                for l in optimized:
+                    print(""{}"".format(l))
+        except:
+            traceback.print_exc(file=sys.stdout)
+            print('get_min_dist failed')
+
+main()",text_b
+3705,"n=int(input())
+s=list(input())
+print(min(s.count('8'),n//10))","n=int(input())
+s=list(input())
+print(min(s.count('8'),n//11))",text_b
+3706,"
+import sys
+#sys.stdin=open(""data.txt"")
+input=sys.stdin.readline
+
+n,m=list(map(int,input().split()))
+
+realg=[list(map(int,input().split())) for _ in range(n)]
+g=[[0]*m for _ in range(n)]
+
+ans=[]
+
+# get differences
+f1=min([realg[0][i] for i in range(m)])
+for i in range(m):
+    for _ in range(realg[0][i]-f1):
+        ans.append(""col %d""%(i+1))
+    for j in range(n):
+        g[j][i]+=realg[0][i]-f1
+
+f2=min([realg[i][0] for i in range(n)])
+for i in range(n):
+    for _ in range(realg[i][0]+f2):
+        ans.append(""row %d""%(i+1))
+    for j in range(m):
+        g[i][j]+=realg[i][0]-f2
+
+# check
+bad=0
+floor=realg[0][0]-g[0][0]
+for i in range(n):
+    for j in range(m):
+        if realg[i][j]-g[i][j]!=floor:
+            bad=1
+
+if bad: print(""-1"")
+else:
+    # get floor done
+    if n<m:
+        for i in range(n):
+            for j in range(floor): ans.append(""row %d""%(i+1))
+    else:
+        for i in range(m):
+            for j in range(floor): ans.append(""col %d""%(i+1))
+    print(len(ans))
+    print(""\n"".join(ans))
+","
+import sys
+#sys.stdin=open(""data.txt"")
+input=sys.stdin.readline
+
+n,m=list(map(int,input().split()))
+
+realg=[list(map(int,input().split())) for _ in range(n)]
+g=[[0]*m for _ in range(n)]
+
+ans=[]
+
+# get differences
+f1=min([realg[0][i] for i in range(m)])
+for i in range(m):
+    for _ in range(realg[0][i]-f1):
+        ans.append(""col %d""%(i+1))
+    for j in range(n):
+        g[j][i]+=realg[0][i]-f1
+
+f2=min([realg[i][0] for i in range(n)])
+for i in range(n):
+    for _ in range(realg[i][0]-f2):
+        ans.append(""row %d""%(i+1))
+    for j in range(m):
+        g[i][j]+=realg[i][0]-f2
+
+# check
+bad=0
+floor=realg[0][0]-g[0][0]
+for i in range(n):
+    for j in range(m):
+        if realg[i][j]-g[i][j]!=floor:
+            bad=1
+
+if bad: print(""-1"")
+else:
+    # get floor done
+    if n<m:
+        for i in range(n):
+            for j in range(floor): ans.append(""row %d""%(i+1))
+    else:
+        for i in range(m):
+            for j in range(floor): ans.append(""col %d""%(i+1))
+    print(len(ans))
+    print(""\n"".join(ans))
+",text_b
+3707,"import collections as col
+import itertools as its
+import sys
+import operator
+from bisect import bisect_left, bisect_right
+from copy import copy, deepcopy
+from math import factorial as fact
+
+
+class Solver:
+    def __init__(self):
+        pass
+
+    def solve(self):
+        n, t, k, d = list(map(int, input().split()))
+        n = (n + k) // k
+        if d < (n-1) * t:
+            print('YES')
+        else:
+            print('NO')
+
+
+def __starting_point():
+    s = Solver()
+    s.solve()
+
+__starting_point()","import collections as col
+import itertools as its
+import sys
+import operator
+from bisect import bisect_left, bisect_right
+from copy import copy, deepcopy
+from math import factorial as fact
+
+
+class Solver:
+    def __init__(self):
+        pass
+
+    def solve(self):
+        n, t, k, d = list(map(int, input().split()))
+        n = (n + k - 1) // k
+        if d < (n-1) * t:
+            print('YES')
+        else:
+            print('NO')
+
+
+def __starting_point():
+    s = Solver()
+    s.solve()
+
+__starting_point()",text_b
+3708,"__author__ = 'Pavel Mavrin'
+
+n, m = [int(x) for x in input().split()]
+a = []
+for i in range(m):
+    a.append([int(x) - 1 for x in input().split()])
+
+a.sort(key=lambda x: x[0] * n + x[1])
+a.append([n - 1, n])
+
+d = [[0, 1]]
+r = 0
+i = 0
+while i < len(a):
+    if a[i][0] == r:
+        dd = []
+        j = 0
+        while i < len(a) and a[i][0] == r and j < len(d):
+            if a[i][1] > d[j][0]:
+                i += 1
+            elif a[i][1] == d[j][0]:
+                d[j][0] += 1
+                if d[j][0] >= d[j][1]:
+                    j += 1
+                i += 1
+            else:
+                dd.append([d[j][0], a[i][1]])
+                d[j][0] = a[i][1] + 1
+                while j < len(d) and d[j][1] <= a[i][1] + 1:
+                    j += 1
+                if j < len(d):
+                    d[j][0] = max(d[j][0], a[i][1] + 1)
+        if j < len(d):
+            dd.append([d[j][0], n])
+        while i < len(a) and (a[i][0] == r):
+            i += 1
+        d = dd
+        r += 1
+        if len(d) == 0:
+            break
+    else:
+        r = a[i][0]
+        d = [[d[0][0], n]]
+    #print(r, i, d)
+
+if len(d) == 0 or d[len(d) - 1][1] < n:
+    print(-1)
+else:
+    print(2 * (n - 1))
+
+
+
+
+
+
+
+
+
+
+
+
+","__author__ = 'Pavel Mavrin'
+
+n, m = [int(x) for x in input().split()]
+a = []
+for i in range(m):
+    a.append([int(x) - 1 for x in input().split()])
+
+a.sort(key=lambda x: x[0] * n + x[1])
+a.append([n - 1, n])
+
+d = [[0, 1]]
+r = 0
+i = 0
+while i < len(a):
+    if a[i][0] == r:
+        dd = []
+        j = 0
+        while i < len(a) and a[i][0] == r and j < len(d):
+            if a[i][1] < d[j][0]:
+                i += 1
+            elif a[i][1] == d[j][0]:
+                d[j][0] += 1
+                if d[j][0] >= d[j][1]:
+                    j += 1
+                i += 1
+            else:
+                dd.append([d[j][0], a[i][1]])
+                d[j][0] = a[i][1] + 1
+                while j < len(d) and d[j][1] <= a[i][1] + 1:
+                    j += 1
+                if j < len(d):
+                    d[j][0] = max(d[j][0], a[i][1] + 1)
+        if j < len(d):
+            dd.append([d[j][0], n])
+        while i < len(a) and (a[i][0] == r):
+            i += 1
+        d = dd
+        r += 1
+        if len(d) == 0:
+            break
+    else:
+        r = a[i][0]
+        d = [[d[0][0], n]]
+    #print(r, i, d)
+
+if len(d) == 0 or d[len(d) - 1][1] < n:
+    print(-1)
+else:
+    print(2 * (n - 1))
+
+
+
+
+
+
+
+
+
+
+
+
+",text_b
+3709,"def bel(mask, bit):
+    return (mask & (1 << bit)) != 0
+read = lambda: map(int, input().split())
+n, k = read()
+f = [0] * 100
+for i in range(n):
+    cur = int(''.join(input().split()), 2)
+    cur ^= (1 << k) - 1
+    f[cur] = 1
+ans = 'NO'
+if k == 1:
+    if f[0]:
+        ans = 'YES'
+if k == 2:
+    f1 = f2 = 0
+    for i in range(4):
+        if f[i]:
+            if bel(i, 0): f1 = 1
+            if bel(i, 1): f2 = 1
+    if f1 and f2:
+        ans = 'YES'
+if k == 3:
+    p = [0] * 3
+    for i in range(8):
+        if f[i]:
+            for j in range(3):
+                if bel(i, j): p[j] = 1
+    for i in range(8):
+        if f[i]:
+            if bel(i, 0) and bel(i, 1) and p[2]: ans = 'YES'
+            if bel(i, 0) and p[1] and bel(i, 2): ans = 'YES'
+            if p[0] and bel(i, 1) and bel(i, 2): ans = 'YES'
+if k == 4:
+    for i in range(16):
+        if f[i]:
+            for j in range(16):
+                if f[j]:
+                    if (i | j) == 15:
+                        ans = 'YES'
+print(ans)","def bel(mask, bit):
+    return (mask & (1 << bit)) != 0
+read = lambda: map(int, input().split())
+n, k = read()
+f = [0] * 100
+for i in range(n):
+    cur = int(''.join(input().split()), 2)
+    cur ^= (1 << k) - 1
+    f[cur] = 1
+ans = 'NO'
+if k == 1:
+    if f[1]:
+        ans = 'YES'
+if k == 2:
+    f1 = f2 = 0
+    for i in range(4):
+        if f[i]:
+            if bel(i, 0): f1 = 1
+            if bel(i, 1): f2 = 1
+    if f1 and f2:
+        ans = 'YES'
+if k == 3:
+    p = [0] * 3
+    for i in range(8):
+        if f[i]:
+            for j in range(3):
+                if bel(i, j): p[j] = 1
+    for i in range(8):
+        if f[i]:
+            if bel(i, 0) and bel(i, 1) and p[2]: ans = 'YES'
+            if bel(i, 0) and p[1] and bel(i, 2): ans = 'YES'
+            if p[0] and bel(i, 1) and bel(i, 2): ans = 'YES'
+if k == 4:
+    for i in range(16):
+        if f[i]:
+            for j in range(16):
+                if f[j]:
+                    if (i | j) == 15:
+                        ans = 'YES'
+print(ans)",text_b
+3710,"from math import *
+from sys import *
+n, k = map(int, stdin.readline().split("" ""))
+a = 1;
+for c in map(int, stdin.readline().split("" "")):
+  a = a * (gcd(k, c)//gcd(a, k))
+if a%k == 0:
+  print(""Yes"")
+else:
+  print(""No"")","from math import *
+from sys import *
+n, k = map(int, stdin.readline().split("" ""))
+a = 1;
+for c in map(int, stdin.readline().split("" "")):
+  a = a * (gcd(k, c)//gcd(a, c))
+if a%k == 0:
+  print(""Yes"")
+else:
+  print(""No"")",text_b
+3711,"n,m,k = [int(x) for x in input().split()]
+
+if k+2>n+m:
+    print(-1)
+else:
+    if k < n:
+        alpha = m // (k-n+2)
+    else:
+        alpha = m * (n // (k+1))
+    if k >= m:
+        beta = n // (k-m+2)
+    else:
+        beta = n * (m // (k + 1))
+    print(max(alpha, beta))
+","n,m,k = [int(x) for x in input().split()]
+
+if k+2>n+m:
+    print(-1)
+else:
+    if k >= n:
+        alpha = m // (k-n+2)
+    else:
+        alpha = m * (n // (k+1))
+    if k >= m:
+        beta = n // (k-m+2)
+    else:
+        beta = n * (m // (k + 1))
+    print(max(alpha, beta))
+",text_b
+3712,"#! /usr/bin/env python
+
+n = int(input())
+counts = [0] * 5
+nums = [int(x) for x in input().split()]
+for x in nums:
+    counts[x] += 1
+
+s = sum(nums)
+if s > 3 and s != 5:
+    ans = 0
+    if counts[1] >= counts[2]:
+        ans += counts[2]
+        counts[3] += counts[2]
+        counts[1] -= counts[2]
+        ans += 2 * (counts[1] // 3)
+        counts[3] += counts[1] // 3
+        counts[1] %= 3
+        if counts[3] > 0:
+            ans += counts[1]
+        elif counts[1] != 0:
+            ans += 2
+    else:
+        ans += counts[1]
+        counts[2] -= counts[1]
+        ans += 2 * (counts[2] // 3)
+        counts[2] %= 3
+        if counts[4] > 0:
+            ans += counts[2]
+        elif counts[2] != 0:
+            ans += 2
+    print(ans)
+else:
+    print(-1)
+","#! /usr/bin/env python
+
+n = int(input())
+counts = [0] * 5
+nums = [int(x) for x in input().split()]
+for x in nums:
+    counts[x] += 1
+
+s = sum(nums)
+if s > 2 and s != 5:
+    ans = 0
+    if counts[1] >= counts[2]:
+        ans += counts[2]
+        counts[3] += counts[2]
+        counts[1] -= counts[2]
+        ans += 2 * (counts[1] // 3)
+        counts[3] += counts[1] // 3
+        counts[1] %= 3
+        if counts[3] > 0:
+            ans += counts[1]
+        elif counts[1] != 0:
+            ans += 2
+    else:
+        ans += counts[1]
+        counts[2] -= counts[1]
+        ans += 2 * (counts[2] // 3)
+        counts[2] %= 3
+        if counts[4] > 0:
+            ans += counts[2]
+        elif counts[2] != 0:
+            ans += 2
+    print(ans)
+else:
+    print(-1)
+",text_b
+3713,"x = int(input())
+y = input()
+if x <= 3:
+    print(x)
+    quit()
+
+num1 = 0
+num0 = 0
+for i in y:
+    if i == '1':
+        num1 = max(num1, num0+1)
+    else:
+        num0 = max(num0, num1+1)
+
+maxx = max(num1, num0)
+if '11' not in y and '00' not in y:
+    print(maxx)
+    quit()
+
+print(min(maxx+1, x))","x = int(input())
+y = input()
+if x <= 3:
+    print(x)
+    quit()
+
+num1 = 0
+num0 = 0
+for i in y:
+    if i == '1':
+        num1 = max(num1, num0+1)
+    else:
+        num0 = max(num0, num1+1)
+
+maxx = max(num1, num0)
+if '11' not in y and '00' not in y:
+    print(maxx)
+    quit()
+
+print(min(maxx+2, x))",text_b
+3714,"n = int(input())
+w = list(map(int, input().split()))
+w = [x for x in w]
+
+ws = sorted(w)
+for i in range(n):
+	if i != ws[i]:
+		print(-1)
+		return
+
+a = []
+vis = [False] * n
+for i in range(n):
+	if not vis[i]:
+		a.append(0)
+		j = i
+		while not vis[j]:
+			a[-1] += 1
+			vis[j] = True
+			j = w[j]
+
+def gcd(a, b):
+	if b == 0:
+		return a
+	return gcd(b, a % b)
+
+ans = 1
+for i in a:
+	if i % 2 == 0:
+		i //= 2
+	ans = ans // gcd(ans, i) * i
+print(ans)
+","n = int(input())
+w = list(map(int, input().split()))
+w = [x-1 for x in w]
+
+ws = sorted(w)
+for i in range(n):
+	if i != ws[i]:
+		print(-1)
+		return
+
+a = []
+vis = [False] * n
+for i in range(n):
+	if not vis[i]:
+		a.append(0)
+		j = i
+		while not vis[j]:
+			a[-1] += 1
+			vis[j] = True
+			j = w[j]
+
+def gcd(a, b):
+	if b == 0:
+		return a
+	return gcd(b, a % b)
+
+ans = 1
+for i in a:
+	if i % 2 == 0:
+		i //= 2
+	ans = ans // gcd(ans, i) * i
+print(ans)
+",text_b
+3715,"import sys
+
+inp = sys.stdin
+#inp = open('input.txt', 'r')
+
+n = int(inp.readline())
+a = list(map(int, inp.readline().split()))
+
+
+best = [0, 0, 0]
+for i in range(n):
+    nx_best = [0, 0, 0]
+    if a[i] in (1, 2):
+        nx_best[1] = max(best[0], best[2]) + 1
+    if a[i] in (3, 4):
+        nx_best[2] = max(best[0], best[1]) + 1
+    nx_best[0] = max(best)
+
+    best = nx_best[:]
+
+print(n - max(best))
+","import sys
+
+inp = sys.stdin
+#inp = open('input.txt', 'r')
+
+n = int(inp.readline())
+a = list(map(int, inp.readline().split()))
+
+
+best = [0, 0, 0]
+for i in range(n):
+    nx_best = [0, 0, 0]
+    if a[i] in (1, 3):
+        nx_best[1] = max(best[0], best[2]) + 1
+    if a[i] in (2, 3):
+        nx_best[2] = max(best[0], best[1]) + 1
+    nx_best[0] = max(best)
+
+    best = nx_best[:]
+
+print(n - max(best))
+",text_b
+3716,"def gcd(a, b):
+    c = a % b
+    return gcd(b, c) if c else b
+
+s, a = 0, int(input())
+if a < 3: print(a)
+else:
+    while a ** 3 > s:
+        b = a - 1
+        while a * a * b * b > s:
+            if gcd(a, b) == 1:
+                d = a * b
+                c = b - 1
+                while d * c > s:
+                    if gcd(c, d) == 1: s = d * c
+                    c -= 1
+            b -= 1
+        a -= 1
+    print(s)","def gcd(a, b):
+    c = a % b
+    return gcd(b, c) if c else b
+
+s, a = 0, int(input())
+if a < 3: print(a)
+else:
+    while a ** 3 > s:
+        b = a - 1
+        while a * b * b > s:
+            if gcd(a, b) == 1:
+                d = a * b
+                c = b - 1
+                while d * c > s:
+                    if gcd(c, d) == 1: s = d * c
+                    c -= 1
+            b -= 1
+        a -= 1
+    print(s)",text_b
+3717,"def excl_max_list(a):
+    first_max = max(a)
+    imax = a.index(first_max)
+    second_max = max(a[:imax] + a[imax + 1:])
+    return [second_max if elem == first_max else first_max for elem in a]
+
+def excl_min_list(a):
+    first_min = min(a)
+    imin = a.index(first_min)
+    second_min = min(a[:imin] + a[imin + 1:])
+    return [second_min if elem != first_min else first_min for elem in a]
+
+n = int(input())
+rectangles = [tuple(map(int, input().split())) for i in range(n)]
+lefts = [l for l, d, r, u in rectangles]
+rights = [r for l, d, r, u in rectangles]
+downs = [d for l, d, r, u in rectangles]
+ups = [u for l, d, r, u in rectangles]
+
+max_lefts = excl_max_list(lefts)
+max_downs = excl_max_list(downs)
+min_rights = excl_min_list(rights)
+min_ups = excl_min_list(ups)
+
+for i in range(n):
+    if max_lefts[i] <= min_rights[i] and max_downs[i] <= min_ups[i]:
+        print(max_lefts[i], max_downs[i])
+        break
+","def excl_max_list(a):
+    first_max = max(a)
+    imax = a.index(first_max)
+    second_max = max(a[:imax] + a[imax + 1:])
+    return [second_max if elem == first_max else first_max for elem in a]
+
+def excl_min_list(a):
+    first_min = min(a)
+    imin = a.index(first_min)
+    second_min = min(a[:imin] + a[imin + 1:])
+    return [second_min if elem == first_min else first_min for elem in a]
+
+n = int(input())
+rectangles = [tuple(map(int, input().split())) for i in range(n)]
+lefts = [l for l, d, r, u in rectangles]
+rights = [r for l, d, r, u in rectangles]
+downs = [d for l, d, r, u in rectangles]
+ups = [u for l, d, r, u in rectangles]
+
+max_lefts = excl_max_list(lefts)
+max_downs = excl_max_list(downs)
+min_rights = excl_min_list(rights)
+min_ups = excl_min_list(ups)
+
+for i in range(n):
+    if max_lefts[i] <= min_rights[i] and max_downs[i] <= min_ups[i]:
+        print(max_lefts[i], max_downs[i])
+        break
+",text_b
+3718,"n = int(input())
+a = sorted(list(set(map(int, input().split()))))
+
+for i in range(2, len(a)):
+    if a[i] - a[i - 2] <= 3:
+        print('YES')
+        break
+else:
+    print('NO')
+","n = int(input())
+a = sorted(list(set(map(int, input().split()))))
+
+for i in range(2, len(a)):
+    if a[i] - a[i - 2] <= 2:
+        print('YES')
+        break
+else:
+    print('NO')
+",text_b

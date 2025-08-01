@@ -1,0 +1,14 @@
+{
+    "Agreement rate": 0.8,
+    "Agreement rate (incl NAs)": 0.8,
+    "Agreed": 4,
+    "Not agreed": 1,
+    "Num text_a evaluator pref": 1,
+    "Num text_b evaluator pref": 4,
+    "No evaluator annotation available": 0,
+    "Not avail.": 0,
+    "Sum": 5,
+    "Agreed (%)": 80.0,
+    "Not agreed (%)": 20.0,
+    "Not avail. (%)": 0.0
+}

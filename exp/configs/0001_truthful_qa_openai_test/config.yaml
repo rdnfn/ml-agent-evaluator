@@ -1,0 +1,19 @@
+#  To run use:
+# ageval -m -cd exp/configs/<CONFIGDIR>
+data_path: "./data/external/truthful_qa/truthful_qa_5.csv"
+num_workers: 12
+wandb:
+  disabled: true
+hydra:
+  launcher:
+    n_jobs: 2
+  mode: MULTIRUN
+  sweeper:
+    params:
+      evaluator_cls: ageval.evaluators.agent.PairwiseEvaluatorAgent, ageval.evaluators.basic.BasicPairwiseEvaluator
+      evaluator_kwargs.model: openai/gpt-3.5-turbo-0125
+      dummy: 1 # single seed
+defaults:
+  - base_config
+  - override hydra/launcher: joblib
+  - _self_

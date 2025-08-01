@@ -1,0 +1,18 @@
+#  To run use:
+# ageval -m -cd "./exp/configs/0600_gsm8k_cot"
+data_path: "./data/external/gsm8k/gsm8k_cot_hard.csv"
+num_workers: 12
+hydra:
+  launcher:
+    n_jobs: 2
+  mode: MULTIRUN
+  sweeper:
+    params:
+      evaluator_cls: ageval.evaluators.agent.PairwiseEvaluatorAgent, ageval.evaluators.basic.BasicPairwiseEvaluator
+      evaluator_kwargs.model: openai/gpt-4o-2024-05-13
+      evaluator_kwargs.tools: choice(["math_checker"])
+      evaluator_kwargs.max_tokens: 512
+      dummy: 1,2,3,4,5
+defaults:
+  - base_config
+  - override hydra/launcher: joblib

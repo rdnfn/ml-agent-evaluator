@@ -1,0 +1,19 @@
+2024-08-15 17:28:24.047 | DEBUG    | ageval.utils:setup_api_keys:23 - Loaded API keys from '/home/a_findeis/project-agent-evaluator/ageval_secrets.toml'.
+2024-08-15 17:28:24.052 | INFO     | ageval.datasets.core:load:59 - Loading dataset from path: ./data/external/truthful_qa/truthful_qa_5.csv
+2024-08-15 17:28:24.056 | INFO     | ageval.experiments.core:run_evaluator_on_pairwise_data:105 - Test starting: running evaluator on pairwise data (run #3).
+2024-08-15 17:28:24.056 | INFO     | ageval.experiments.core:run_evaluator_on_pairwise_data:106 - Saving config and results to: /home/a_findeis/project-agent-evaluator/multirun/2024-08-15/17-27-49/3
+2024-08-15 17:28:24.058 | INFO     | ageval.experiments.core:run_evaluator_on_pairwise_data:131 - Evaluating in parallel (with 12 workers).
+2024-08-15 17:28:26.516 | DEBUG    | ageval.utils:setup_api_keys:23 - Loaded API keys from '/home/a_findeis/project-agent-evaluator/ageval_secrets.toml'.
+2024-08-15 17:28:26.522 | DEBUG    | ageval.utils:setup_api_keys:23 - Loaded API keys from '/home/a_findeis/project-agent-evaluator/ageval_secrets.toml'.
+2024-08-15 17:28:26.533 | DEBUG    | ageval.utils:setup_api_keys:23 - Loaded API keys from '/home/a_findeis/project-agent-evaluator/ageval_secrets.toml'.
+2024-08-15 17:28:26.545 | DEBUG    | ageval.utils:setup_api_keys:23 - Loaded API keys from '/home/a_findeis/project-agent-evaluator/ageval_secrets.toml'.
+2024-08-15 17:28:26.640 | DEBUG    | ageval.evaluators.core:__init__:60 - Evaluator <ageval.evaluators.basic.BasicPairwiseEvaluator object at 0x7fabb8de25d0> ignored the kwargs: {'max_facts': None, 'tools': ['fact_check', 'code_interpreter'], 'baseline': 'ageval.evaluators.basic.BasicPairwiseEvaluator', 'baseline_kwargs': None, 'agent_act_threshold': 5}
+2024-08-15 17:28:26.647 | DEBUG    | ageval.evaluators.core:__init__:60 - Evaluator <ageval.evaluators.basic.BasicPairwiseEvaluator object at 0x7fd962e74a10> ignored the kwargs: {'max_facts': None, 'tools': ['fact_check', 'code_interpreter'], 'baseline': 'ageval.evaluators.basic.BasicPairwiseEvaluator', 'baseline_kwargs': None, 'agent_act_threshold': 5}
+2024-08-15 17:28:26.659 | DEBUG    | ageval.evaluators.core:__init__:60 - Evaluator <ageval.evaluators.basic.BasicPairwiseEvaluator object at 0x7ff224bd0dd0> ignored the kwargs: {'max_facts': None, 'tools': ['fact_check', 'code_interpreter'], 'baseline': 'ageval.evaluators.basic.BasicPairwiseEvaluator', 'baseline_kwargs': None, 'agent_act_threshold': 5}
+2024-08-15 17:28:26.675 | DEBUG    | ageval.evaluators.core:__init__:60 - Evaluator <ageval.evaluators.basic.BasicPairwiseEvaluator object at 0x7fd6b4b00cd0> ignored the kwargs: {'max_facts': None, 'tools': ['fact_check', 'code_interpreter'], 'baseline': 'ageval.evaluators.basic.BasicPairwiseEvaluator', 'baseline_kwargs': None, 'agent_act_threshold': 5}
+2024-08-15 17:28:26.689 | DEBUG    | ageval.utils:setup_api_keys:23 - Loaded API keys from '/home/a_findeis/project-agent-evaluator/ageval_secrets.toml'.
+2024-08-15 17:28:26.809 | DEBUG    | ageval.evaluators.core:__init__:60 - Evaluator <ageval.evaluators.basic.BasicPairwiseEvaluator object at 0x7f37b2d44bd0> ignored the kwargs: {'max_facts': None, 'tools': ['fact_check', 'code_interpreter'], 'baseline': 'ageval.evaluators.basic.BasicPairwiseEvaluator', 'baseline_kwargs': None, 'agent_act_threshold': 5}
+2024-08-15 17:28:28.664 | INFO     | ageval.experiments.core:run_evaluator_on_pairwise_data:158 - Results saved to: /home/a_findeis/project-agent-evaluator/multirun/2024-08-15/17-27-49/3
+2024-08-15 17:28:28.665 | INFO     | ageval.experiments.core:run_evaluator_on_pairwise_data:159 - To view and analyze results in app, run:
+ageval-app -p /home/a_findeis/project-agent-evaluator/multirun/2024-08-15/17-27-49
+2024-08-15 17:28:28.666 | INFO     | ageval.experiments.core:run_evaluator_on_pairwise_data:163 - End: completed applying evaluator to pairwise data.

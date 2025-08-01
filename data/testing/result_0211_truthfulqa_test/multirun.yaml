@@ -1,0 +1,218 @@
+hydra:
+  run:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: multirun/${now:%Y-%m-%d}/${now:%H-%M-%S}
+    subdir: ${hydra.job.num}
+  launcher:
+    _target_: hydra_plugins.hydra_joblib_launcher.joblib_launcher.JoblibLauncher
+    n_jobs: 2
+    backend: null
+    prefer: processes
+    require: null
+    verbose: 0
+    timeout: null
+    pre_dispatch: 2*n_jobs
+    batch_size: auto
+    temp_folder: null
+    max_nbytes: null
+    mmap_mode: r
+  sweeper:
+    _target_: hydra._internal.core_plugins.basic_sweeper.BasicSweeper
+    max_batch_size: null
+    params:
+      evaluator_cls: ageval.evaluators.agent.PairwiseEvaluatorAgent, ageval.evaluators.basic.BasicPairwiseEvaluator
+      evaluator_kwargs.model: openai/gpt-3.5-turbo-0125, openai/gpt-4o-2024-05-13
+      dummy: '1'
+  help:
+    app_name: ${hydra.job.name}
+    header: '${hydra.help.app_name} is powered by Hydra.
+
+      '
+    footer: 'Powered by Hydra (https://hydra.cc)
+
+      Use --hydra-help to view Hydra specific help
+
+      '
+    template: '${hydra.help.header}
+
+      == Configuration groups ==
+
+      Compose your configuration from those groups (group=option)
+
+
+      $APP_CONFIG_GROUPS
+
+
+      == Config ==
+
+      Override anything in the config (foo.bar=value)
+
+
+      $CONFIG
+
+
+      ${hydra.help.footer}
+
+      '
+  hydra_help:
+    template: 'Hydra (${hydra.runtime.version})
+
+      See https://hydra.cc for more info.
+
+
+      == Flags ==
+
+      $FLAGS_HELP
+
+
+      == Configuration groups ==
+
+      Compose your configuration from those groups (For example, append hydra/job_logging=disabled
+      to command line)
+
+
+      $HYDRA_CONFIG_GROUPS
+
+
+      Use ''--cfg hydra'' to Show the Hydra config.
+
+      '
+    hydra_help: ???
+  hydra_logging:
+    version: 1
+    formatters:
+      simple:
+        format: '[%(asctime)s][HYDRA] %(message)s'
+    handlers:
+      console:
+        class: logging.StreamHandler
+        formatter: simple
+        stream: ext://sys.stdout
+    root:
+      level: INFO
+      handlers:
+      - console
+    loggers:
+      logging_example:
+        level: DEBUG
+    disable_existing_loggers: false
+  job_logging:
+    version: 1
+    formatters:
+      simple:
+        format: '[%(asctime)s][%(name)s][%(levelname)s] - %(message)s'
+    handlers:
+      console:
+        class: logging.StreamHandler
+        formatter: simple
+        stream: ext://sys.stdout
+      file:
+        class: logging.FileHandler
+        formatter: simple
+        filename: ${hydra.runtime.output_dir}/${hydra.job.name}.log
+    root:
+      level: INFO
+      handlers:
+      - console
+      - file
+    disable_existing_loggers: false
+  env: {}
+  mode: MULTIRUN
+  searchpath: []
+  callbacks: {}
+  output_subdir: .hydra
+  overrides:
+    hydra: []
+    task: []
+  job:
+    name: core
+    chdir: null
+    override_dirname: ''
+    id: ???
+    num: ???
+    config_name: config
+    env_set: {}
+    env_copy: []
+    config:
+      override_dirname:
+        kv_sep: '='
+        item_sep: ','
+        exclude_keys: []
+  runtime:
+    version: 1.3.2
+    version_base: '1.3'
+    cwd: /home/a_findeis/project-agent-evaluator
+    config_sources:
+    - path: hydra.conf
+      schema: pkg
+      provider: hydra
+    - path: ageval.experiments
+      schema: pkg
+      provider: main
+    - path: /home/a_findeis/project-agent-evaluator/exp/configs/0211_truthful_qa_openai_test
+      schema: file
+      provider: command-line
+    - path: ''
+      schema: structured
+      provider: schema
+    output_dir: ???
+    choices:
+      hydra/env: default
+      hydra/callbacks: null
+      hydra/job_logging: default
+      hydra/hydra_logging: default
+      hydra/hydra_help: default
+      hydra/help: default
+      hydra/sweeper: basic
+      hydra/launcher: joblib
+      hydra/output: default
+  verbose: false
+data_path: ./data/external/truthful_qa/truthful_qa_5.csv
+data_name: null
+evaluator_cls: ageval.evaluators.basic.BasicPairwiseEvaluator
+evaluator_kwargs:
+  model: openai/gpt-3.5-turbo-0125
+  max_tokens: 512
+  additional_instructions: null
+  max_facts: null
+  tools:
+  - fact_check
+  - code_interpreter
+  baseline: ageval.evaluators.basic.BasicPairwiseEvaluator
+  baseline_kwargs: null
+  agent_act_threshold: 5
+  prompts:
+    no_harm_agent:
+      will_websearch_help_description: Confidence that a websearch will help correctly
+        select the better response. Integer between 0 (won't help) and 5 (will with
+        absolute certainty help), 3 would mean 'may help'.Consider whether there are
+        facts present in either response, and if (!) consider whether these facts
+        can be checked in a websearch. For example a word count task can't be checked
+        with a websearch, but the birthday of a celebrity may be checked. Remember
+        that websearches do not help on maths problems.
+    tools:
+      fact_check:
+        contains_facts_desc: Whether text contains any facts that may be checked using
+          a web search.
+        is_maths_desc: Whether the is a solution to any kind of maths problem.
+        is_word_count_desc: Whether the text is providing a word count.
+        confidence_web_helps_desc: Confidence that a websearch will help correctly
+          select the better response. Integer between 0 (won't help) and 5 (will with
+          absolute certainty help), 3 would mean 'may help'.Consider whether there
+          are facts present in either response, and if (!) consider whether these
+          facts can be checked in a websearch. For example a word count task can't
+          be checked with a websearch, but the birthday of a celebrity may be checked.
+          Remember that websearches do not help on maths problems.
+parallelize: true
+num_workers: 12
+show_progress_bar: false
+verbose: 1
+save_dir: ./ageval_results
+dummy: null
+wandb:
+  disabled: true
+  project: default_project
+  entity: arduin
+  allow_rerun: false
+log_level: INFO

@@ -1,0 +1,48 @@
+data_path: ./data/external/truthful_qa/truthful_qa_5.csv
+data_name: null
+evaluator_cls: ageval.evaluators.basic.BasicPairwiseEvaluator
+evaluator_kwargs:
+  model: openai/gpt-4o-2024-05-13
+  max_tokens: 512
+  additional_instructions: null
+  max_facts: null
+  tools:
+  - fact_check
+  - code_interpreter
+  baseline: ageval.evaluators.basic.BasicPairwiseEvaluator
+  baseline_kwargs: null
+  agent_act_threshold: 5
+  prompts:
+    no_harm_agent:
+      will_websearch_help_description: Confidence that a websearch will help correctly
+        select the better response. Integer between 0 (won't help) and 5 (will with
+        absolute certainty help), 3 would mean 'may help'.Consider whether there are
+        facts present in either response, and if (!) consider whether these facts
+        can be checked in a websearch. For example a word count task can't be checked
+        with a websearch, but the birthday of a celebrity may be checked. Remember
+        that websearches do not help on maths problems.
+    tools:
+      fact_check:
+        contains_facts_desc: Whether text contains any facts that may be checked using
+          a web search.
+        is_maths_desc: Whether the is a solution to any kind of maths problem.
+        is_word_count_desc: Whether the text is providing a word count.
+        confidence_web_helps_desc: Confidence that a websearch will help correctly
+          select the better response. Integer between 0 (won't help) and 5 (will with
+          absolute certainty help), 3 would mean 'may help'.Consider whether there
+          are facts present in either response, and if (!) consider whether these
+          facts can be checked in a websearch. For example a word count task can't
+          be checked with a websearch, but the birthday of a celebrity may be checked.
+          Remember that websearches do not help on maths problems.
+parallelize: true
+num_workers: 12
+show_progress_bar: false
+verbose: 1
+save_dir: ./ageval_results
+dummy: 1
+wandb:
+  disabled: true
+  project: default_project
+  entity: arduin
+  allow_rerun: false
+log_level: INFO
