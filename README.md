@@ -1,6 +1,6 @@
 # ml-agent-evaluator
 
-> This is an updated fork of [apple/ml-agent-evaluator](https://github.com/rdnfn/ml-agent-evaluator) maintained by original co-creator and first author of [corresponding paper](https://arxiv.org/abs/2507.17015). Since I finished my internship and am no longer at Apple, maintaining the code in this fork is easiest. Feel free to open an PR to address any issues!
+> This is an updated fork of [apple/ml-agent-evaluator](https://github.com/apple/ml-agent-evaluator) maintained by original co-creator and first author of [corresponding paper](https://arxiv.org/abs/2507.17015). Since I finished my internship and am no longer at Apple, maintaining the code in this fork is easiest. Feel free to open an PR to address any issues!
 
 Software accompanying the research paper, [Can External Validation Tools Improve Annotation Quality for LLM-as-a-Judge?](https://arxiv.org/abs/2507.17015).
 
