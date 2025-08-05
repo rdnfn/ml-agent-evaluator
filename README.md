@@ -1,4 +1,7 @@
 # ml-agent-evaluator
+
+> This is an updated fork of [apple/ml-agent-evaluator](https://github.com/rdnfn/ml-agent-evaluator) maintained by original co-creator and first author of [corresponding paper](https://arxiv.org/abs/2507.17015). Since I finished my internship and am no longer at Apple, maintaining the code in this fork is easiest. Feel free to open an PR to address any issues!
+
 Software accompanying the research paper, [Can External Validation Tools Improve Annotation Quality for LLM-as-a-Judge?](https://arxiv.org/abs/2507.17015).
 
 This project explores the use of agent-style capabilities (such as tool-use) to improve LLM-as-a-judge systems. The basic setup is illustrated below.
@@ -63,11 +66,11 @@ print(f"Reasoning: {result['overall_result']['reasoning']}")
 ```
 > ```
 > Preferred text: text_a
-> Reasoning: Based on the fact-check results, Text A is the better text 
-> as it accurately states that Apple Intelligence is a real product introduced 
-> by Apple, supported by official announcements and discussions. Text B, on 
-> the other hand, falsely claims that Apple never announced a product called 
-> Apple Intelligence, which is contradicted by search results showing multiple 
+> Reasoning: Based on the fact-check results, Text A is the better text
+> as it accurately states that Apple Intelligence is a real product introduced
+> by Apple, supported by official announcements and discussions. Text B, on
+> the other hand, falsely claims that Apple never announced a product called
+> Apple Intelligence, which is contradicted by search results showing multiple
 > references to Apple Intelligence.
 > ```
 
@@ -98,7 +101,7 @@ ageval
 
 For example, you can run a short demo experiment with agent vs baseline results on truthfulQA data:
 ```
-ageval -m -cd "./exp/configs/0001_truthful_qa_openai_test" 
+ageval -m -cd "./exp/configs/0001_truthful_qa_openai_test"
 ```
 
 In general, we recommend using `yaml` configs to configure experiments (instead of just relying on command line arguments). See the full list of [pre-set configs here](exp/configs). To run an experiment with a yaml config use:
